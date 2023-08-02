@@ -1,0 +1,7 @@
+<map id="GASS::readTemplateFile" name="GASS::readTemplateFile">
+<area shape="rect" id="Node000001" title="Lê o arquivo de template." alt="" coords="206,32,382,60"/>
+<area shape="rect" id="Node000002" href="$namespaceGASS.html#a7de0487e57ce7191088bf31ecfa9a78a" title="Executa um teste de sanidade para a execução do GA." alt="" coords="5,5,158,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="191,36,158,31,158,26,191,30"/>
+<area shape="rect" id="Node000003" href="$namespaceGASS.html#a9dde04a068714a3fb4d638432e365a87" title="Inicializa o setup lendo a configuração, templates, repositórios, etc." alt="" coords="31,57,132,85"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="192,61,133,68,132,63,191,55"/>
+</map>

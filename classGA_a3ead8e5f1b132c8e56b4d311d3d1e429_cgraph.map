@@ -1,0 +1,11 @@
+<map id="GA::trocaAminosEquivPopulacao" name="GA::trocaAminosEquivPopulacao">
+<area shape="rect" id="Node000001" title="Troca aminoácidos equivalentes na população inteira, dependendo do quadrante." alt="" coords="5,57,239,85"/>
+<area shape="rect" id="Node000002" href="$classGA.html#adda4cc49dfb003949047c169c6ae01f0" title="Realiza substituições conservativas nas cadeias de aminoácidos do indivíduo fornecido,..." alt="" coords="287,57,501,85"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="239,69,272,69,272,74,239,74"/>
+<area shape="rect" id="Node000003" href="$classGA.html#a5efc9540045dcd9b63d226dd2cfa22c1" title="Calcula o valor de aptidão (fitness) de um indivíduo com base na distância entre seus átomos e outros..." alt="" coords="592,5,702,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="464,54,577,31,578,36,465,59"/>
+<area shape="rect" id="Node000004" href="$classIndividuo.html#a5ce38e26ca9ee8f49c7d6b18a78be2c4" title="Define o genotipo deste individuo." alt="" coords="549,57,744,85"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="502,69,534,69,534,74,502,74"/>
+<area shape="rect" id="Node000005" href="$classIndividuo.html#a1a054fa7eb914f8d93136514f3234340" title="Define a aptidao deste individuo." alt="" coords="569,109,724,137"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="465,83,562,103,561,108,464,88"/>
+</map>

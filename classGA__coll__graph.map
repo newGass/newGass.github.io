@@ -1,0 +1,7 @@
+<map id="GA" name="GA">
+<area shape="rect" id="Node000001" title="Classe que representa um algoritmo genético." alt="" coords="85,98,125,126"/>
+<area shape="rect" id="Node000002" href="$structRepositorio.html" title="Estrutura que representa um repositório de átomos." alt="" coords="5,5,101,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="52,48,57,73,70,88,86,99,83,103,66,92,53,75,47,49"/>
+<area shape="rect" id="Node000003" href="$structsite.html" title="Estrutura que representa um sítio de ligação." alt="" coords="136,5,181,33"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="147,48,131,75,116,99,112,96,127,73,142,45"/>
+</map>

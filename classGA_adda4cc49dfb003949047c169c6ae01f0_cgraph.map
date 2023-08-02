@@ -1,0 +1,9 @@
+<map id="GA::trocaAminosEquivalentes" name="GA::trocaAminosEquivalentes">
+<area shape="rect" id="Node000001" title="Realiza substituições conservativas nas cadeias de aminoácidos do indivíduo fornecido,..." alt="" coords="5,57,220,85"/>
+<area shape="rect" id="Node000002" href="$classGA.html#a5efc9540045dcd9b63d226dd2cfa22c1" title="Calcula o valor de aptidão (fitness) de um indivíduo com base na distância entre seus átomos e outros..." alt="" coords="310,5,421,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="183,54,295,31,296,36,184,59"/>
+<area shape="rect" id="Node000003" href="$classIndividuo.html#a5ce38e26ca9ee8f49c7d6b18a78be2c4" title="Define o genotipo deste individuo." alt="" coords="268,57,463,85"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="220,69,253,69,253,74,220,74"/>
+<area shape="rect" id="Node000004" href="$classIndividuo.html#a1a054fa7eb914f8d93136514f3234340" title="Define a aptidao deste individuo." alt="" coords="288,109,443,137"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="184,83,281,103,280,108,183,88"/>
+</map>

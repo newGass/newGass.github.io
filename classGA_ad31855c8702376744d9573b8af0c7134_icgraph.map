@@ -1,0 +1,19 @@
+<map id="GA::possivel" name="GA::possivel">
+<area shape="rect" id="Node000001" title="Verifica se é possível gerar um indivíduo válido no quadrante especificado, com base na disponibilida..." alt="" coords="522,135,625,162"/>
+<area shape="rect" id="Node000002" href="$classGA.html#a6baac59ec282ba023e86feefbf7b5070" title="Executa o GA por g gerações." alt="" coords="405,83,474,110"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="521,131,474,112,476,107,523,126"/>
+<area shape="rect" id="Node000008" href="$classGA.html#ac545a7d926fa259bb2ad174a87d22900" title="Executa o GA por g gerações em um determinado quadrante." alt="" coords="405,135,474,162"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="507,151,475,151,475,146,507,146"/>
+<area shape="rect" id="Node000009" href="$classGA.html#ab72582e6d5f124b1f102c4cbf9bff933" title="Executa o algoritmo genético, evoluindo a população." alt="" coords="405,187,474,214"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="523,171,476,190,474,185,521,166"/>
+<area shape="rect" id="Node000003" href="$namespaceGASS.html#a7120397ceb2f405898c39e73bfcadd19" title="Executa o algoritmo genético (GA) para diversos templates e quadrantes, consolidando os resultados." alt="" coords="239,5,324,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="405,77,356,48,324,35,326,30,358,43,408,72"/>
+<area shape="rect" id="Node000004" href="$namespaceGASS.html#a2ffc31a9d4db2438aecbfe63e5322ef8" title="Executa o algoritmo genético (GA) para diversos templates e quadrantes, consolidando os resultados." alt="" coords="239,57,324,85"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="390,91,324,81,325,75,391,86"/>
+<area shape="rect" id="Node000005" href="$namespaceGASS.html#a1ab7cff6ca6be04f7d006013b17c59da" title="Executa um algoritmo genético (GA) em paralelo em múltiplos quadrantes e depois consolida os resultad..." alt="" coords="206,109,357,137"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="391,107,358,113,357,108,390,102"/>
+<area shape="rect" id="Node000007" href="$namespaceGASS.html#ac2832826bf351720679129bf9837ace6" title="Executa um algoritmo genético (GA) em paralelo em múltiplos quadrantes e depois consolida os resultad..." alt="" coords="206,161,357,189"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="408,121,358,151,329,163,327,158,356,146,406,117"/>
+<area shape="rect" id="Node000006" href="$namespaceGASS.html#a7de0487e57ce7191088bf31ecfa9a78a" title="Executa um teste de sanidade para a execução do GA." alt="" coords="5,109,158,137"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="191,126,158,126,158,121,191,121"/>
+</map>

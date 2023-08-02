@@ -1,0 +1,158 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt-BR">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.7"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>GASS: Referência do Arquivo GA.cpp</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">GASS<span id="projectnumber">&#160;2.0</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Gerado por Doxygen 1.9.7 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Busca');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Carregando...</div>
+<div class="SRStatus" id="Searching">Procurando...</div>
+<div class="SRStatus" id="NoMatches">Nenhuma entrada encontrado</div>
+</div>
+</div>
+</div>
+</div>
+
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle"><div class="title">Referência do Arquivo GA.cpp</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &quot;<a class="el" href="GA_8hpp_source.html">GA.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="Individuo_8hpp_source.html">Individuo.hpp</a>&quot;</code><br />
+<code>#include &lt;iostream&gt;</code><br />
+<code>#include &lt;fstream&gt;</code><br />
+<code>#include &lt;iomanip&gt;</code><br />
+<code>#include &lt;chrono&gt;</code><br />
+<code>#include &lt;set&gt;</code><br />
+</div><div class="textblock"><div class="dynheader">
+Gráfico de dependência de inclusões para GA.cpp:</div>
+<div class="dyncontent">
+<div class="center"><img src="GA_8cpp__incl.png" border="0" usemap="#aGA_8cpp" alt=""/></div>
+<map name="aGA_8cpp" id="aGA_8cpp">
+<area shape="rect" title=" " alt="" coords="898,5,965,33"/>
+<area shape="rect" href="GA_8hpp.html" title=" " alt="" coords="488,81,556,109"/>
+<area shape="poly" title=" " alt="" coords="898,29,571,87,570,82,897,24"/>
+<area shape="rect" href="Individuo_8hpp.html" title=" " alt="" coords="325,157,434,184"/>
+<area shape="poly" title=" " alt="" coords="898,25,680,43,561,60,512,71,477,83,454,96,434,113,400,147,396,143,430,109,451,92,474,79,511,66,560,55,680,38,897,20"/>
+<area shape="rect" title=" " alt="" coords="1323,232,1396,260"/>
+<area shape="poly" title=" " alt="" coords="942,32,969,69,1009,107,1065,136,1146,169,1310,226,1308,231,1144,174,1063,141,1006,111,965,72,938,35"/>
+<area shape="rect" title=" " alt="" coords="1220,232,1299,260"/>
+<area shape="poly" title=" " alt="" coords="932,33,930,64,932,104,943,147,952,166,965,182,993,205,1019,218,1045,225,1072,226,1132,224,1167,225,1206,229,1205,235,1167,230,1132,230,1072,232,1044,230,1017,223,990,209,962,186,948,169,938,148,927,105,925,64,927,33"/>
+<area shape="rect" title=" " alt="" coords="852,157,894,184"/>
+<area shape="poly" title=" " alt="" coords="929,34,886,144,881,142,924,32"/>
+<area shape="rect" title=" " alt="" coords="1020,81,1094,109"/>
+<area shape="poly" title=" " alt="" coords="955,31,1024,71,1021,76,953,36"/>
+<area shape="rect" title=" " alt="" coords="1118,81,1183,109"/>
+<area shape="poly" title=" " alt="" coords="967,29,1104,75,1102,80,965,34"/>
+<area shape="poly" title=" " alt="" coords="498,112,419,152,416,147,495,107"/>
+<area shape="rect" title=" " alt="" coords="164,232,227,260"/>
+<area shape="poly" title=" " alt="" coords="488,105,407,124,359,140,314,159,263,191,221,224,218,220,260,187,312,154,358,135,405,119,487,100"/>
+<area shape="rect" title=" " alt="" coords="462,232,524,260"/>
+<area shape="poly" title=" " alt="" coords="522,109,501,218,496,217,517,108"/>
+<area shape="rect" title=" " alt="" coords="367,232,438,260"/>
+<area shape="poly" title=" " alt="" coords="514,111,424,222,420,219,510,107"/>
+<area shape="rect" href="site_8hpp.html" title=" " alt="" coords="163,157,236,184"/>
+<area shape="poly" title=" " alt="" coords="488,107,252,160,250,155,487,101"/>
+<area shape="rect" title=" " alt="" coords="5,232,90,260"/>
+<area shape="poly" title=" " alt="" coords="488,98,422,100,337,109,243,127,196,141,151,159,105,189,69,224,65,220,102,185,149,154,194,136,241,122,336,104,422,95,487,93"/>
+<area shape="rect" href="Repositorio_8hpp.html" title=" " alt="" coords="654,157,777,184"/>
+<area shape="poly" title=" " alt="" coords="558,107,669,149,667,154,556,112"/>
+<area shape="rect" title=" " alt="" coords="548,232,598,260"/>
+<area shape="poly" title=" " alt="" coords="529,108,566,217,561,219,524,110"/>
+<area shape="poly" title=" " alt="" coords="557,98,663,118,727,134,790,154,815,169,840,182,893,197,939,206,1019,214,1101,217,1205,229,1204,234,1101,222,1019,219,938,211,892,202,839,187,813,173,788,159,725,139,661,123,556,104"/>
+<area shape="poly" title=" " alt="" coords="557,99,680,121,833,154,839,155,837,161,832,159,679,126,556,104"/>
+<area shape="poly" title=" " alt="" coords="348,187,241,230,239,225,346,182"/>
+<area shape="poly" title=" " alt="" coords="401,183,462,222,459,226,398,187"/>
+<area shape="poly" title=" " alt="" coords="386,184,396,217,391,219,381,186"/>
+<area shape="rect" href="Atomo_8hpp.html" title=" " alt="" coords="251,232,343,260"/>
+<area shape="poly" title=" " alt="" coords="366,187,324,224,321,220,363,183"/>
+<area shape="rect" title=" " alt="" coords="268,308,326,336"/>
+<area shape="poly" title=" " alt="" coords="300,261,300,293,294,293,294,261"/>
+<area shape="rect" href="AtomoCompat_8hpp.html" title=" " alt="" coords="680,308,823,336"/>
+<area shape="poly" title=" " alt="" coords="344,255,355,257,520,285,666,306,665,312,519,290,354,263,343,260"/>
+<area shape="poly" title=" " alt="" coords="201,185,200,218,194,217,196,185"/>
+<area shape="poly" title=" " alt="" coords="237,178,448,229,447,234,236,183"/>
+<area shape="poly" title=" " alt="" coords="219,183,270,221,267,226,215,187"/>
+<area shape="poly" title=" " alt="" coords="186,187,170,202,157,221,150,240,155,259,175,280,200,295,227,306,254,312,252,318,225,311,197,300,171,284,150,261,145,240,152,218,166,199,182,183"/>
+<area shape="poly" title=" " alt="" coords="173,187,89,228,86,223,171,182"/>
+<area shape="poly" title=" " alt="" coords="677,187,539,233,537,228,675,182"/>
+<area shape="poly" title=" " alt="" coords="654,184,358,234,357,229,653,179"/>
+<area shape="poly" title=" " alt="" coords="706,186,667,224,641,245,611,262,540,289,466,307,397,317,341,322,341,316,396,311,465,301,538,284,609,258,638,241,664,220,703,182"/>
+<area shape="poly" title=" " alt="" coords="778,179,952,208,1059,230,1065,246,1059,262,1044,274,1023,284,968,300,903,311,839,318,838,313,902,306,967,295,1022,279,1041,269,1055,258,1060,246,1055,234,951,214,777,184"/>
+<area shape="poly" title=" " alt="" coords="691,187,612,228,610,223,689,183"/>
+<area shape="rect" title=" " alt="" coords="783,232,907,260"/>
+<area shape="poly" title=" " alt="" coords="740,183,811,223,808,227,737,187"/>
+<area shape="rect" title=" " alt="" coords="930,232,1045,260"/>
+<area shape="poly" title=" " alt="" coords="765,182,926,225,924,231,763,187"/>
+<area shape="rect" title=" " alt="" coords="1120,232,1196,260"/>
+<area shape="poly" title=" " alt="" coords="778,179,1101,230,1106,231,1105,236,1100,235,777,184"/>
+<area shape="rect" title=" " alt="" coords="672,232,759,260"/>
+<area shape="poly" title=" " alt="" coords="718,185,718,217,713,217,713,185"/>
+<area shape="poly" title=" " alt="" coords="778,175,1309,230,1309,236,777,181"/>
+<area shape="poly" title=" " alt="" coords="778,179,796,182,910,195,1000,203,1090,212,1205,229,1204,234,1090,217,999,208,909,200,795,187,777,184"/>
+</map>
+</div>
+</div>
+<p><a href="GA_8cpp_source.html">Ir para o código-fonte desse arquivo.</a></p>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Gerado por&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.7
+</small></address>
+</body>
+</html>

@@ -1,0 +1,171 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt-BR">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.7"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>GASS: Código-Fonte de site.hpp</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">GASS<span id="projectnumber">&#160;2.0</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Gerado por Doxygen 1.9.7 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Busca');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Carregando...</div>
+<div class="SRStatus" id="Searching">Procurando...</div>
+<div class="SRStatus" id="NoMatches">Nenhuma entrada encontrado</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">site.hpp</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="site_8hpp.html">Ir para a documentação desse arquivo.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#include &quot;<a class="code" href="Atomo_8hpp.html">Atomo.hpp</a>&quot;</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &lt;vector&gt;</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &lt;string&gt;</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &lt;cmath&gt;</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &lt;algorithm&gt;</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno"><a class="line" href="structsite.html">   18</a></span><span class="keyword">struct </span><a class="code hl_struct" href="structsite.html">site</a></div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>{</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno"><a class="line" href="structsite.html#a3f2820c41d81d2f1416b37ac751c2c01">   20</a></span>    std::vector&lt;Atomo&gt; <a class="code hl_variable" href="structsite.html#a3f2820c41d81d2f1416b37ac751c2c01">residuos</a>;</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno"><a class="line" href="structsite.html#a87c0df158363198f4698e8c3de22b08a">   21</a></span>    std::vector&lt;float&gt; <a class="code hl_variable" href="structsite.html#a87c0df158363198f4698e8c3de22b08a">distances</a>;</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno"><a class="line" href="structsite.html#a074a0e85e301b316ba36b8dad13a3421">   22</a></span>    std::string <a class="code hl_variable" href="structsite.html#a074a0e85e301b316ba36b8dad13a3421">pdbId</a>;</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno"><a class="line" href="structsite.html#ac2357c9528d341fc355dd86084e4ff25">   23</a></span>    std::string <a class="code hl_variable" href="structsite.html#ac2357c9528d341fc355dd86084e4ff25">uniprotId</a>;</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="structsite.html#a1e2ab74f1ebef6fd4d51072f7af32f67">   24</a></span>    std::string <a class="code hl_variable" href="structsite.html#a1e2ab74f1ebef6fd4d51072f7af32f67">resolution</a>;</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="structsite.html#a4ee3c7868ad22c1c8cca828252b86623">   25</a></span>    std::string <a class="code hl_variable" href="structsite.html#a4ee3c7868ad22c1c8cca828252b86623">ecNumber</a>;</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="structsite.html#a3b84e56903d2a0b4f2d9b947f927af8b">   26</a></span>    std::vector&lt;std::vector&lt;int&gt;&gt; <a class="code hl_variable" href="structsite.html#a3b84e56903d2a0b4f2d9b947f927af8b">substitutions</a>;</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="structsite.html#aaba570b8be271b15323167c5bfacd75f">   27</a></span>    <span class="keywordtype">int</span> <a class="code hl_variable" href="structsite.html#aaba570b8be271b15323167c5bfacd75f">size</a>;</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>    <span class="comment">//*</span></div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>    <span class="comment">//  * @brief Construtor padrão</span></div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>    <span class="comment">//  *</span></div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>    <span class="comment">//  * @details</span></div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>    <span class="comment">//  * Construtor padrão da estrutura site.</span></div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>    <span class="comment">//  * Inicializa o vetor de átomos e o vetor de distâncias.</span></div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>    <span class="comment">//  * O vetor de átomos é inicializado com tamanho 0.</span></div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>    <span class="comment">//  * O vetor de distâncias é inicializado com tamanho 0.</span></div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>    <span class="comment">//  * O id do pdb é inicializado com uma string vazia.</span></div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>    <span class="comment">//  * O id do uniprot é inicializado com uma string vazia.</span></div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>    <span class="comment">//  * A resolução é inicializada com uma string vazia.</span></div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>    <span class="comment">//  * O número ec é inicializado com uma string vazia.</span></div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>    <span class="comment">//  * O tamanho do sítio é inicializado com 0.</span></div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno"><a class="line" href="structsite.html#a749e3129da44a402b84d22b26d71a321">   41</a></span>    <a class="code hl_function" href="structsite.html#a749e3129da44a402b84d22b26d71a321">site</a>(){</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>        this-&gt;size=0;</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>        <a class="code hl_variable" href="structsite.html#a3b84e56903d2a0b4f2d9b947f927af8b">substitutions</a> = std::vector&lt;std::vector&lt;int&gt;&gt;(20);</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>    };</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>    <span class="comment">//*</span></div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    <span class="comment">//  * @brief Construtor da estrutura site</span></div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    <span class="comment">//  *</span></div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>    <span class="comment">//  * @details</span></div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>    <span class="comment">//  * Construtor da estrutura site.</span></div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>    <span class="comment">//  * Inicializa o vetor de átomos e o vetor de distâncias.</span></div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>    <span class="comment">//  * O vetor de átomos é inicializado com o vetor de átomos passado como parâmetro.</span></div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>    <span class="comment">//  * O vetor de distâncias é inicializado com tamanho 0.</span></div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>    <span class="comment">//  * O id do pdb é inicializado com uma string vazia.</span></div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>    <span class="comment">//  * O id do uniprot é inicializado com uma string vazia.</span></div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>    <span class="comment">//  * A resolução é inicializada com uma string vazia.</span></div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>    <span class="comment">//  * O número ec é inicializado com uma string vazia.</span></div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>    <span class="comment">//  * O tamanho do sítio é inicializado com o tamanho do vetor de átomos.</span></div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>    <span class="comment">//  *</span></div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno"><a class="line" href="structsite.html#af13ace8fa2ce081e1606c0e48acfcdc9">   59</a></span>    <a class="code hl_function" href="structsite.html#af13ace8fa2ce081e1606c0e48acfcdc9">site</a>(std::vector&lt;Atomo&gt; <a class="code hl_variable" href="structsite.html#a3f2820c41d81d2f1416b37ac751c2c01">residuos</a>){</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>        this-&gt;residuos=<a class="code hl_variable" href="structsite.html#a3f2820c41d81d2f1416b37ac751c2c01">residuos</a>;</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>        this-&gt;size=<a class="code hl_variable" href="structsite.html#a3f2820c41d81d2f1416b37ac751c2c01">residuos</a>.size();</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>        <a class="code hl_function" href="structsite.html#ae298f1395b2989571fbd8ea9bd2e8367">calculateDistances</a>();</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>    }</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span> </div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>    <span class="comment">// *</span></div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>    <span class="comment">//  * @brief Calcula as distâncias entre os resíduos do sítio</span></div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>    <span class="comment">//  *</span></div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>    <span class="comment">//  * @details</span></div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>    <span class="comment">//  * Calcula as distâncias entre os resíduos do sítio e armazena no vetor de distâncias.</span></div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>    <span class="comment">//  * O vetor de distâncias é inicializado com tamanho size*(size-1)/2.</span></div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>    <span class="comment">//  * O vetor de distâncias é ordenado.</span></div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>    <span class="comment">//  *</span></div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno"><a class="line" href="structsite.html#ae298f1395b2989571fbd8ea9bd2e8367">   73</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="structsite.html#ae298f1395b2989571fbd8ea9bd2e8367">calculateDistances</a>(){</div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>        <a class="code hl_variable" href="structsite.html#a87c0df158363198f4698e8c3de22b08a">distances</a> = std::vector&lt;float&gt;(<a class="code hl_variable" href="structsite.html#aaba570b8be271b15323167c5bfacd75f">size</a>*(<a class="code hl_variable" href="structsite.html#aaba570b8be271b15323167c5bfacd75f">size</a>-1)/2);</div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>        <span class="keywordtype">int</span> pos=0;</div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>        <span class="keywordflow">for</span>(<span class="keywordtype">int</span> i=0;i&lt;<a class="code hl_variable" href="structsite.html#aaba570b8be271b15323167c5bfacd75f">size</a>;i++){</div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>            <span class="keywordflow">for</span>(<span class="keywordtype">int</span> j=i+1;j&lt;<a class="code hl_variable" href="structsite.html#aaba570b8be271b15323167c5bfacd75f">size</a>;j++){</div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>                <a class="code hl_variable" href="structsite.html#a87c0df158363198f4698e8c3de22b08a">distances</a>[pos++]=sqrt((<a class="code hl_variable" href="structsite.html#a3f2820c41d81d2f1416b37ac751c2c01">residuos</a>[i].x - <a class="code hl_variable" href="structsite.html#a3f2820c41d81d2f1416b37ac751c2c01">residuos</a>[j].x)*(<a class="code hl_variable" href="structsite.html#a3f2820c41d81d2f1416b37ac751c2c01">residuos</a>[i].x - <a class="code hl_variable" href="structsite.html#a3f2820c41d81d2f1416b37ac751c2c01">residuos</a>[j].x) +</div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>                    (<a class="code hl_variable" href="structsite.html#a3f2820c41d81d2f1416b37ac751c2c01">residuos</a>[i].y - <a class="code hl_variable" href="structsite.html#a3f2820c41d81d2f1416b37ac751c2c01">residuos</a>[j].y)*(<a class="code hl_variable" href="structsite.html#a3f2820c41d81d2f1416b37ac751c2c01">residuos</a>[i].y - <a class="code hl_variable" href="structsite.html#a3f2820c41d81d2f1416b37ac751c2c01">residuos</a>[j].y)  +  </div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>                    (<a class="code hl_variable" href="structsite.html#a3f2820c41d81d2f1416b37ac751c2c01">residuos</a>[i].z - <a class="code hl_variable" href="structsite.html#a3f2820c41d81d2f1416b37ac751c2c01">residuos</a>[j].z)*(<a class="code hl_variable" href="structsite.html#a3f2820c41d81d2f1416b37ac751c2c01">residuos</a>[i].z - <a class="code hl_variable" href="structsite.html#a3f2820c41d81d2f1416b37ac751c2c01">residuos</a>[j].z));</div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>            }</div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>        }</div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>        std::sort(<a class="code hl_variable" href="structsite.html#a87c0df158363198f4698e8c3de22b08a">distances</a>.begin(), <a class="code hl_variable" href="structsite.html#a87c0df158363198f4698e8c3de22b08a">distances</a>.end());</div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span> </div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>    }</div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>};</div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span> </div>
+<div class="ttc" id="aAtomo_8hpp_html"><div class="ttname"><a href="Atomo_8hpp.html">Atomo.hpp</a></div></div>
+<div class="ttc" id="astructsite_html"><div class="ttname"><a href="structsite.html">site</a></div><div class="ttdoc">Estrutura que representa um sítio de ligação.</div><div class="ttdef"><b>Definição</b> <a href="site_8hpp_source.html#l00018">site.hpp:19</a></div></div>
+<div class="ttc" id="astructsite_html_a074a0e85e301b316ba36b8dad13a3421"><div class="ttname"><a href="structsite.html#a074a0e85e301b316ba36b8dad13a3421">site::pdbId</a></div><div class="ttdeci">std::string pdbId</div><div class="ttdef"><b>Definição</b> <a href="site_8hpp_source.html#l00022">site.hpp:22</a></div></div>
+<div class="ttc" id="astructsite_html_a1e2ab74f1ebef6fd4d51072f7af32f67"><div class="ttname"><a href="structsite.html#a1e2ab74f1ebef6fd4d51072f7af32f67">site::resolution</a></div><div class="ttdeci">std::string resolution</div><div class="ttdef"><b>Definição</b> <a href="site_8hpp_source.html#l00024">site.hpp:24</a></div></div>
+<div class="ttc" id="astructsite_html_a3b84e56903d2a0b4f2d9b947f927af8b"><div class="ttname"><a href="structsite.html#a3b84e56903d2a0b4f2d9b947f927af8b">site::substitutions</a></div><div class="ttdeci">std::vector&lt; std::vector&lt; int &gt; &gt; substitutions</div><div class="ttdef"><b>Definição</b> <a href="site_8hpp_source.html#l00026">site.hpp:26</a></div></div>
+<div class="ttc" id="astructsite_html_a3f2820c41d81d2f1416b37ac751c2c01"><div class="ttname"><a href="structsite.html#a3f2820c41d81d2f1416b37ac751c2c01">site::residuos</a></div><div class="ttdeci">std::vector&lt; Atomo &gt; residuos</div><div class="ttdef"><b>Definição</b> <a href="site_8hpp_source.html#l00020">site.hpp:20</a></div></div>
+<div class="ttc" id="astructsite_html_a4ee3c7868ad22c1c8cca828252b86623"><div class="ttname"><a href="structsite.html#a4ee3c7868ad22c1c8cca828252b86623">site::ecNumber</a></div><div class="ttdeci">std::string ecNumber</div><div class="ttdef"><b>Definição</b> <a href="site_8hpp_source.html#l00025">site.hpp:25</a></div></div>
+<div class="ttc" id="astructsite_html_a749e3129da44a402b84d22b26d71a321"><div class="ttname"><a href="structsite.html#a749e3129da44a402b84d22b26d71a321">site::site</a></div><div class="ttdeci">site()</div><div class="ttdef"><b>Definição</b> <a href="site_8hpp_source.html#l00041">site.hpp:41</a></div></div>
+<div class="ttc" id="astructsite_html_a87c0df158363198f4698e8c3de22b08a"><div class="ttname"><a href="structsite.html#a87c0df158363198f4698e8c3de22b08a">site::distances</a></div><div class="ttdeci">std::vector&lt; float &gt; distances</div><div class="ttdef"><b>Definição</b> <a href="site_8hpp_source.html#l00021">site.hpp:21</a></div></div>
+<div class="ttc" id="astructsite_html_aaba570b8be271b15323167c5bfacd75f"><div class="ttname"><a href="structsite.html#aaba570b8be271b15323167c5bfacd75f">site::size</a></div><div class="ttdeci">int size</div><div class="ttdef"><b>Definição</b> <a href="site_8hpp_source.html#l00027">site.hpp:27</a></div></div>
+<div class="ttc" id="astructsite_html_ac2357c9528d341fc355dd86084e4ff25"><div class="ttname"><a href="structsite.html#ac2357c9528d341fc355dd86084e4ff25">site::uniprotId</a></div><div class="ttdeci">std::string uniprotId</div><div class="ttdef"><b>Definição</b> <a href="site_8hpp_source.html#l00023">site.hpp:23</a></div></div>
+<div class="ttc" id="astructsite_html_ae298f1395b2989571fbd8ea9bd2e8367"><div class="ttname"><a href="structsite.html#ae298f1395b2989571fbd8ea9bd2e8367">site::calculateDistances</a></div><div class="ttdeci">void calculateDistances()</div><div class="ttdef"><b>Definição</b> <a href="site_8hpp_source.html#l00073">site.hpp:73</a></div></div>
+<div class="ttc" id="astructsite_html_af13ace8fa2ce081e1606c0e48acfcdc9"><div class="ttname"><a href="structsite.html#af13ace8fa2ce081e1606c0e48acfcdc9">site::site</a></div><div class="ttdeci">site(std::vector&lt; Atomo &gt; residuos)</div><div class="ttdef"><b>Definição</b> <a href="site_8hpp_source.html#l00059">site.hpp:59</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Gerado por&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.7
+</small></address>
+</body>
+</html>

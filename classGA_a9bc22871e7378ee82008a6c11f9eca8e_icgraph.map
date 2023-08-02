@@ -1,0 +1,17 @@
+<map id="GA::salvaPopulacao" name="GA::salvaPopulacao">
+<area shape="rect" id="Node000001" title="Salva a população em um arquivo ou contêiner." alt="" coords="522,111,673,138"/>
+<area shape="rect" id="Node000002" href="$classGA.html#a6baac59ec282ba023e86feefbf7b5070" title="Executa o GA por g gerações." alt="" coords="405,84,474,112"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="507,112,474,106,475,101,508,107"/>
+<area shape="rect" id="Node000008" href="$classGA.html#a8eda2189e926951ba021d7602759bea6" title="Executa o GA por g gerações com uma populaçãi inicial determinada." alt="" coords="405,136,474,164"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="508,142,475,147,474,142,507,136"/>
+<area shape="rect" id="Node000003" href="$namespaceGASS.html#a7120397ceb2f405898c39e73bfcadd19" title="Executa o algoritmo genético (GA) para diversos templates e quadrantes, consolidando os resultados." alt="" coords="239,5,324,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="406,78,356,48,324,35,326,30,358,43,408,73"/>
+<area shape="rect" id="Node000004" href="$namespaceGASS.html#a2ffc31a9d4db2438aecbfe63e5322ef8" title="Executa o algoritmo genético (GA) para diversos templates e quadrantes, consolidando os resultados." alt="" coords="239,57,324,85"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="390,92,324,81,325,76,391,87"/>
+<area shape="rect" id="Node000005" href="$namespaceGASS.html#a1ab7cff6ca6be04f7d006013b17c59da" title="Executa um algoritmo genético (GA) em paralelo em múltiplos quadrantes e depois consolida os resultad..." alt="" coords="206,109,357,137"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="391,108,358,114,357,108,390,103"/>
+<area shape="rect" id="Node000007" href="$namespaceGASS.html#ac2832826bf351720679129bf9837ace6" title="Executa um algoritmo genético (GA) em paralelo em múltiplos quadrantes e depois consolida os resultad..." alt="" coords="206,161,357,189"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="408,122,358,151,329,163,327,158,356,146,405,118"/>
+<area shape="rect" id="Node000006" href="$namespaceGASS.html#a7de0487e57ce7191088bf31ecfa9a78a" title="Executa um teste de sanidade para a execução do GA." alt="" coords="5,109,158,137"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="191,126,158,126,158,121,191,121"/>
+</map>

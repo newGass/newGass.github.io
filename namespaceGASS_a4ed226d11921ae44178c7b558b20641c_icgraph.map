@@ -1,0 +1,5 @@
+<map id="GASS::readRunFile" name="GASS::readRunFile">
+<area shape="rect" id="Node000001" title="Lê o arquivo de execução contendo nomes de proteínas." alt="" coords="154,5,295,33"/>
+<area shape="rect" id="Node000002" href="$namespaceGASS.html#a9dde04a068714a3fb4d638432e365a87" title="Inicializa o setup lendo a configuração, templates, repositórios, etc." alt="" coords="5,5,106,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="138,22,106,22,106,17,138,17"/>
+</map>

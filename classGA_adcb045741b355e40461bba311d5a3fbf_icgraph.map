@@ -1,0 +1,9 @@
+<map id="GA::setPopulation" name="GA::setPopulation">
+<area shape="rect" id="Node000001" title="Define a população com o vetor de indivíduos fornecido." alt="" coords="405,32,542,60"/>
+<area shape="rect" id="Node000002" href="$namespaceGASS.html#a1ab7cff6ca6be04f7d006013b17c59da" title="Executa um algoritmo genético (GA) em paralelo em múltiplos quadrantes e depois consolida os resultad..." alt="" coords="206,5,357,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="390,37,357,32,358,27,391,32"/>
+<area shape="rect" id="Node000004" href="$namespaceGASS.html#ac2832826bf351720679129bf9837ace6" title="Executa um algoritmo genético (GA) em paralelo em múltiplos quadrantes e depois consolida os resultad..." alt="" coords="206,57,357,85"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="391,59,358,64,357,59,390,54"/>
+<area shape="rect" id="Node000003" href="$namespaceGASS.html#a7de0487e57ce7191088bf31ecfa9a78a" title="Executa um teste de sanidade para a execução do GA." alt="" coords="5,5,158,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="191,22,158,22,158,17,191,17"/>
+</map>

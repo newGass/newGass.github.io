@@ -1,0 +1,5 @@
+<map id="GA::calculaFitPopulacao" name="GA::calculaFitPopulacao">
+<area shape="rect" id="Node000001" title="Calcula a aptidao de cada individuo da populacao." alt="" coords="5,5,183,33"/>
+<area shape="rect" id="Node000002" href="$classGA.html#a5efc9540045dcd9b63d226dd2cfa22c1" title="Calcula o valor de aptidão (fitness) de um indivíduo com base na distância entre seus átomos e outros..." alt="" coords="231,5,341,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="183,17,216,17,216,22,183,22"/>
+</map>

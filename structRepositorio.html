@@ -1,0 +1,502 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt-BR">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.7"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>GASS: Referência da Estrutura Repositorio</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">GASS<span id="projectnumber">&#160;2.0</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Gerado por Doxygen 1.9.7 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Busca');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Carregando...</div>
+<div class="SRStatus" id="Searching">Procurando...</div>
+<div class="SRStatus" id="NoMatches">Nenhuma entrada encontrado</div>
+</div>
+</div>
+</div>
+</div>
+
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Membros Públicos</a> &#124;
+<a href="#pub-attribs">Atributos Públicos</a> &#124;
+<a href="structRepositorio-members.html">Lista de todos os Membros</a>  </div>
+  <div class="headertitle"><div class="title">Referência da Estrutura Repositorio</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>Estrutura que representa um repositório de átomos.  
+ <a href="structRepositorio.html#details">Mais...</a></p>
+
+<p><code>#include &lt;<a class="el" href="Repositorio_8hpp_source.html">Repositorio.hpp</a>&gt;</code></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Membros Públicos</h2></td></tr>
+<tr class="memitem:a05e4fc6f6639ad547b1d7ac8c898e918"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::vector&lt; <a class="el" href="structAtomo.html">Atomo</a> * &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structRepositorio.html#a05e4fc6f6639ad547b1d7ac8c898e918">operator[]</a> (int key)</td></tr>
+<tr class="memdesc:a05e4fc6f6639ad547b1d7ac8c898e918"><td class="mdescLeft">&#160;</td><td class="mdescRight">Obtém os átomos de um cluster.  <br /></td></tr>
+<tr class="separator:a05e4fc6f6639ad547b1d7ac8c898e918"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d117cfccc52bf3bf2a3f08cbc1ec709"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structRepositorio.html#a5d117cfccc52bf3bf2a3f08cbc1ec709">getRepository</a> ()</td></tr>
+<tr class="memdesc:a5d117cfccc52bf3bf2a3f08cbc1ec709"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ler o repositório a partir de um arquivo.  <br /></td></tr>
+<tr class="separator:a5d117cfccc52bf3bf2a3f08cbc1ec709"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a08ab0fa27513e147ab544159510b895e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structRepositorio.html#a08ab0fa27513e147ab544159510b895e">readRepository</a> (std::string path)</td></tr>
+<tr class="memdesc:a08ab0fa27513e147ab544159510b895e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ler o repositório a partir de um arquivo.  <br /></td></tr>
+<tr class="separator:a08ab0fa27513e147ab544159510b895e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc00b2be950a28bbf71a29b9920779ac"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structRepositorio.html#abc00b2be950a28bbf71a29b9920779ac">readRepository</a> (std::string path, std::function&lt; int(std::vector&lt; <a class="el" href="structAtomo.html">Atomo</a> &gt;, <a class="el" href="structAtomo.html">Atomo</a>)&gt; clusterFunction)</td></tr>
+<tr class="memdesc:abc00b2be950a28bbf71a29b9920779ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ler o repositório a partir de um arquivo e clusterizá-lo.  <br /></td></tr>
+<tr class="separator:abc00b2be950a28bbf71a29b9920779ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a26ae474a60bef01a0ee7737e7bc7df3b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structRepositorio.html#a26ae474a60bef01a0ee7737e7bc7df3b">getPartition</a> (float <a class="el" href="structRepositorio.html#a6680ad7aca6ce30f0691f4c77f410c2d">centroide</a>[3], <a class="el" href="structAtomo.html">Atomo</a> res)</td></tr>
+<tr class="memdesc:a26ae474a60bef01a0ee7737e7bc7df3b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Função de clustering padrão.  <br /></td></tr>
+<tr class="separator:a26ae474a60bef01a0ee7737e7bc7df3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a53fbb2f1bea0102da99156bd227322"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structRepositorio.html#a8a53fbb2f1bea0102da99156bd227322">~Repositorio</a> ()</td></tr>
+<tr class="memdesc:a8a53fbb2f1bea0102da99156bd227322"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destrói o objeto Repositório.  <br /></td></tr>
+<tr class="separator:a8a53fbb2f1bea0102da99156bd227322"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
+Atributos Públicos</h2></td></tr>
+<tr class="memitem:a40afa3a2e5b6173ca8b208eac12ad3ed"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="structAtomo.html">Atomo</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structRepositorio.html#a40afa3a2e5b6173ca8b208eac12ad3ed">atoms</a></td></tr>
+<tr class="memdesc:a40afa3a2e5b6173ca8b208eac12ad3ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vetor de átomos.  <br /></td></tr>
+<tr class="separator:a40afa3a2e5b6173ca8b208eac12ad3ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb62d90ba2cf10f45033116306913c26"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::vector&lt; std::vector&lt; <a class="el" href="structAtomo.html">Atomo</a> * &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structRepositorio.html#aeb62d90ba2cf10f45033116306913c26">rep</a></td></tr>
+<tr class="memdesc:aeb62d90ba2cf10f45033116306913c26"><td class="mdescLeft">&#160;</td><td class="mdescRight">Coleção de átomos de maneira clusterizada.  <br /></td></tr>
+<tr class="separator:aeb62d90ba2cf10f45033116306913c26"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b4000b60bb56894c236675c9ae76254"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structRepositorio.html#a5b4000b60bb56894c236675c9ae76254">pdbId</a></td></tr>
+<tr class="memdesc:a5b4000b60bb56894c236675c9ae76254"><td class="mdescLeft">&#160;</td><td class="mdescRight">ID PDB.  <br /></td></tr>
+<tr class="separator:a5b4000b60bb56894c236675c9ae76254"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6680ad7aca6ce30f0691f4c77f410c2d"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structRepositorio.html#a6680ad7aca6ce30f0691f4c77f410c2d">centroide</a> [3]</td></tr>
+<tr class="memdesc:a6680ad7aca6ce30f0691f4c77f410c2d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Centro de massa do repositório.  <br /></td></tr>
+<tr class="separator:a6680ad7aca6ce30f0691f4c77f410c2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descrição detalhada</h2>
+<div class="textblock"><p>Estrutura que representa um repositório de átomos. </p>
+<p>Esta estrutura representa um repositório de átomos, e fornece funcionalidades para a manipulação e organização dos átomos, tais como leitura, agrupamento e obtenção de informações específicas. </p>
+
+<p class="definition">Definição na linha <a class="el" href="Repositorio_8hpp_source.html#l00020">20</a> do arquivo <a class="el" href="Repositorio_8hpp_source.html">Repositorio.hpp</a>.</p>
+</div><h2 class="groupheader">Construtores e Destrutores</h2>
+<a id="a8a53fbb2f1bea0102da99156bd227322" name="a8a53fbb2f1bea0102da99156bd227322"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8a53fbb2f1bea0102da99156bd227322">&#9670;&#160;</a></span>~Repositorio()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Repositorio::~Repositorio </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Destrói o objeto Repositório. </p>
+<p>Esta função é o destrutor da estrutura, e é responsável por limpar as estruturas internas, liberando a memória ocupada pelo repositório. </p>
+
+<p class="definition">Definição na linha <a class="el" href="Repositorio_8hpp_source.html#l00201">201</a> do arquivo <a class="el" href="Repositorio_8hpp_source.html">Repositorio.hpp</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Documentação das funções</h2>
+<a id="a26ae474a60bef01a0ee7737e7bc7df3b" name="a26ae474a60bef01a0ee7737e7bc7df3b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a26ae474a60bef01a0ee7737e7bc7df3b">&#9670;&#160;</a></span>getPartition()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Repositorio::getPartition </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>centroide</em>[3], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structAtomo.html">Atomo</a>&#160;</td>
+          <td class="paramname"><em>res</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Função de clustering padrão. </p>
+<p>Esta função agrupa um átomo em um dos quatro clusters possíveis, com base na sua posição em relação ao centroide do repositório. </p><dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">centroide</td><td>Centroide do repositório </td></tr>
+    <tr><td class="paramname">res</td><td>Átomo a ser agrupado em cluster </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>int Cluster do átomo </dd></dl>
+
+<p class="definition">Definição na linha <a class="el" href="Repositorio_8hpp_source.html#l00181">181</a> do arquivo <a class="el" href="Repositorio_8hpp_source.html">Repositorio.hpp</a>.</p>
+<div class="dynheader">
+Esse é o diagrama das funções que utilizam essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="structRepositorio_a26ae474a60bef01a0ee7737e7bc7df3b_icgraph.png" border="0" usemap="#astructRepositorio_a26ae474a60bef01a0ee7737e7bc7df3b_icgraph" alt=""/></div>
+<map name="astructRepositorio_a26ae474a60bef01a0ee7737e7bc7df3b_icgraph" id="astructRepositorio_a26ae474a60bef01a0ee7737e7bc7df3b_icgraph">
+<area shape="rect" title="Função de clustering padrão." alt="" coords="456,32,634,60"/>
+<area shape="rect" href="structRepositorio.html#a08ab0fa27513e147ab544159510b895e" title="Ler o repositório a partir de um arquivo." alt="" coords="206,32,408,60"/>
+<area shape="poly" title=" " alt="" coords="441,49,409,49,409,43,441,43"/>
+<area shape="rect" href="namespaceGASS.html#a7de0487e57ce7191088bf31ecfa9a78a" title="Executa um teste de sanidade para a execução do GA." alt="" coords="5,5,158,33"/>
+<area shape="poly" title=" " alt="" coords="191,35,158,31,158,26,191,29"/>
+<area shape="rect" href="namespaceGASS.html#a9dde04a068714a3fb4d638432e365a87" title="Inicializa o setup lendo a configuração, templates, repositórios, etc." alt="" coords="31,57,132,85"/>
+<area shape="poly" title=" " alt="" coords="191,62,132,68,132,63,191,56"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a5d117cfccc52bf3bf2a3f08cbc1ec709" name="a5d117cfccc52bf3bf2a3f08cbc1ec709"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5d117cfccc52bf3bf2a3f08cbc1ec709">&#9670;&#160;</a></span>getRepository()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto Repositorio::getRepository </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Ler o repositório a partir de um arquivo. </p>
+<p>Esta função lê um repositório de átomos a partir de um arquivo e organiza-os em uma estrutura interna. Os átomos são agrupados em clusters, aminoácidos e IDs de átomos. </p><dl class="section return"><dt>Retorna</dt><dd>auto Repositório em uma estrutura [cluster][amino][atomId] </dd></dl>
+
+<p class="definition">Definição na linha <a class="el" href="Repositorio_8hpp_source.html#l00062">62</a> do arquivo <a class="el" href="Repositorio_8hpp_source.html">Repositorio.hpp</a>.</p>
+<div class="dynheader">
+Esse é o diagrama das funções que utilizam essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="structRepositorio_a5d117cfccc52bf3bf2a3f08cbc1ec709_icgraph.png" border="0" usemap="#astructRepositorio_a5d117cfccc52bf3bf2a3f08cbc1ec709_icgraph" alt=""/></div>
+<map name="astructRepositorio_a5d117cfccc52bf3bf2a3f08cbc1ec709_icgraph" id="astructRepositorio_a5d117cfccc52bf3bf2a3f08cbc1ec709_icgraph">
+<area shape="rect" title="Ler o repositório a partir de um arquivo." alt="" coords="456,59,650,86"/>
+<area shape="rect" href="structRepositorio.html#a08ab0fa27513e147ab544159510b895e" title="Ler o repositório a partir de um arquivo." alt="" coords="206,32,408,60"/>
+<area shape="poly" title=" " alt="" coords="441,63,408,59,409,54,442,58"/>
+<area shape="rect" href="structRepositorio.html#abc00b2be950a28bbf71a29b9920779ac" title="Ler o repositório a partir de um arquivo e clusterizá&#45;lo." alt="" coords="206,84,408,112"/>
+<area shape="poly" title=" " alt="" coords="442,87,409,90,408,85,441,81"/>
+<area shape="rect" href="namespaceGASS.html#a7de0487e57ce7191088bf31ecfa9a78a" title="Executa um teste de sanidade para a execução do GA." alt="" coords="5,5,158,33"/>
+<area shape="poly" title=" " alt="" coords="191,35,158,31,158,26,191,29"/>
+<area shape="rect" href="namespaceGASS.html#a9dde04a068714a3fb4d638432e365a87" title="Inicializa o setup lendo a configuração, templates, repositórios, etc." alt="" coords="31,57,132,85"/>
+<area shape="poly" title=" " alt="" coords="191,62,132,68,132,63,191,56"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a05e4fc6f6639ad547b1d7ac8c898e918" name="a05e4fc6f6639ad547b1d7ac8c898e918"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a05e4fc6f6639ad547b1d7ac8c898e918">&#9670;&#160;</a></span>operator[]()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; std::vector&lt; <a class="el" href="structAtomo.html">Atomo</a> * &gt; &gt; Repositorio::operator[] </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>key</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Obtém os átomos de um cluster. </p>
+<p>Esta função retorna os átomos pertencentes a um cluster específico. Utiliza o operador de colchetes e a chave do cluster desejado como parâmetro. </p><dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">key</td><td>ID do cluster </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>std::vector&lt;std::vector&lt;Atomo*&gt;&gt; Átomos no cluster especificado </dd></dl>
+
+<p class="definition">Definição na linha <a class="el" href="Repositorio_8hpp_source.html#l00051">51</a> do arquivo <a class="el" href="Repositorio_8hpp_source.html">Repositorio.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a08ab0fa27513e147ab544159510b895e" name="a08ab0fa27513e147ab544159510b895e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a08ab0fa27513e147ab544159510b895e">&#9670;&#160;</a></span>readRepository() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Repositorio::readRepository </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>path</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Ler o repositório a partir de um arquivo. </p>
+<p>Esta função lê o repositório de átomos a partir de um arquivo e faz uso de informações do arquivo para preencher a estrutura interna. </p><dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">path</td><td>Caminho para o arquivo </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definição na linha <a class="el" href="Repositorio_8hpp_source.html#l00086">86</a> do arquivo <a class="el" href="Repositorio_8hpp_source.html">Repositorio.hpp</a>.</p>
+<div class="dynheader">
+Este é o diagrama das funções utilizadas por essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="structRepositorio_a08ab0fa27513e147ab544159510b895e_cgraph.png" border="0" usemap="#astructRepositorio_a08ab0fa27513e147ab544159510b895e_cgraph" alt=""/></div>
+<map name="astructRepositorio_a08ab0fa27513e147ab544159510b895e_cgraph" id="astructRepositorio_a08ab0fa27513e147ab544159510b895e_cgraph">
+<area shape="rect" title="Ler o repositório a partir de um arquivo." alt="" coords="5,32,208,60"/>
+<area shape="rect" href="structRepositorio.html#a26ae474a60bef01a0ee7737e7bc7df3b" title="Função de clustering padrão." alt="" coords="264,5,442,33"/>
+<area shape="poly" title=" " alt="" coords="208,32,248,28,249,33,208,38"/>
+<area shape="rect" href="structRepositorio.html#a5d117cfccc52bf3bf2a3f08cbc1ec709" title="Ler o repositório a partir de um arquivo." alt="" coords="256,57,450,85"/>
+<area shape="poly" title=" " alt="" coords="208,54,241,57,241,62,208,59"/>
+</map>
+</div>
+<div class="dynheader">
+Esse é o diagrama das funções que utilizam essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="structRepositorio_a08ab0fa27513e147ab544159510b895e_icgraph.png" border="0" usemap="#astructRepositorio_a08ab0fa27513e147ab544159510b895e_icgraph" alt=""/></div>
+<map name="astructRepositorio_a08ab0fa27513e147ab544159510b895e_icgraph" id="astructRepositorio_a08ab0fa27513e147ab544159510b895e_icgraph">
+<area shape="rect" title="Ler o repositório a partir de um arquivo." alt="" coords="206,32,408,60"/>
+<area shape="rect" href="namespaceGASS.html#a7de0487e57ce7191088bf31ecfa9a78a" title="Executa um teste de sanidade para a execução do GA." alt="" coords="5,5,158,33"/>
+<area shape="poly" title=" " alt="" coords="191,35,158,31,158,26,191,29"/>
+<area shape="rect" href="namespaceGASS.html#a9dde04a068714a3fb4d638432e365a87" title="Inicializa o setup lendo a configuração, templates, repositórios, etc." alt="" coords="31,57,132,85"/>
+<area shape="poly" title=" " alt="" coords="191,62,132,68,132,63,191,56"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="abc00b2be950a28bbf71a29b9920779ac" name="abc00b2be950a28bbf71a29b9920779ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abc00b2be950a28bbf71a29b9920779ac">&#9670;&#160;</a></span>readRepository() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Repositorio::readRepository </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>path</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::function&lt; int(std::vector&lt; <a class="el" href="structAtomo.html">Atomo</a> &gt;, <a class="el" href="structAtomo.html">Atomo</a>)&gt;&#160;</td>
+          <td class="paramname"><em>clusterFunction</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Ler o repositório a partir de um arquivo e clusterizá-lo. </p>
+<p>Esta função lê o repositório de átomos a partir de um arquivo e o clusteriza de acordo com uma função de agrupamento em clusters passada como parâmetro. </p><dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">path</td><td>Caminho para o arquivo </td></tr>
+    <tr><td class="paramname">clusterFunction</td><td>Função para clusterizar o repositório </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definição na linha <a class="el" href="Repositorio_8hpp_source.html#l00135">135</a> do arquivo <a class="el" href="Repositorio_8hpp_source.html">Repositorio.hpp</a>.</p>
+<div class="dynheader">
+Este é o diagrama das funções utilizadas por essa função:</div>
+<div class="dyncontent">
+<div class="center"><img src="structRepositorio_abc00b2be950a28bbf71a29b9920779ac_cgraph.png" border="0" usemap="#astructRepositorio_abc00b2be950a28bbf71a29b9920779ac_cgraph" alt=""/></div>
+<map name="astructRepositorio_abc00b2be950a28bbf71a29b9920779ac_cgraph" id="astructRepositorio_abc00b2be950a28bbf71a29b9920779ac_cgraph">
+<area shape="rect" title="Ler o repositório a partir de um arquivo e clusterizá&#45;lo." alt="" coords="5,5,208,33"/>
+<area shape="rect" href="structRepositorio.html#a5d117cfccc52bf3bf2a3f08cbc1ec709" title="Ler o repositório a partir de um arquivo." alt="" coords="256,5,450,33"/>
+<area shape="poly" title=" " alt="" coords="208,17,241,17,241,22,208,22"/>
+</map>
+</div>
+
+</div>
+</div>
+<h2 class="groupheader">Atributos</h2>
+<a id="a40afa3a2e5b6173ca8b208eac12ad3ed" name="a40afa3a2e5b6173ca8b208eac12ad3ed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a40afa3a2e5b6173ca8b208eac12ad3ed">&#9670;&#160;</a></span>atoms</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;<a class="el" href="structAtomo.html">Atomo</a>&gt; Repositorio::atoms</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Vetor de átomos. </p>
+
+<p class="definition">Definição na linha <a class="el" href="Repositorio_8hpp_source.html#l00025">25</a> do arquivo <a class="el" href="Repositorio_8hpp_source.html">Repositorio.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a6680ad7aca6ce30f0691f4c77f410c2d" name="a6680ad7aca6ce30f0691f4c77f410c2d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6680ad7aca6ce30f0691f4c77f410c2d">&#9670;&#160;</a></span>centroide</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Repositorio::centroide[3]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Centro de massa do repositório. </p>
+
+<p class="definition">Definição na linha <a class="el" href="Repositorio_8hpp_source.html#l00040">40</a> do arquivo <a class="el" href="Repositorio_8hpp_source.html">Repositorio.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a5b4000b60bb56894c236675c9ae76254" name="a5b4000b60bb56894c236675c9ae76254"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b4000b60bb56894c236675c9ae76254">&#9670;&#160;</a></span>pdbId</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string Repositorio::pdbId</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>ID PDB. </p>
+
+<p class="definition">Definição na linha <a class="el" href="Repositorio_8hpp_source.html#l00035">35</a> do arquivo <a class="el" href="Repositorio_8hpp_source.html">Repositorio.hpp</a>.</p>
+
+</div>
+</div>
+<a id="aeb62d90ba2cf10f45033116306913c26" name="aeb62d90ba2cf10f45033116306913c26"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeb62d90ba2cf10f45033116306913c26">&#9670;&#160;</a></span>rep</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;std::vector&lt;std::vector&lt;<a class="el" href="structAtomo.html">Atomo</a>*&gt; &gt; &gt; Repositorio::rep</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Coleção de átomos de maneira clusterizada. </p>
+
+<p class="definition">Definição na linha <a class="el" href="Repositorio_8hpp_source.html#l00030">30</a> do arquivo <a class="el" href="Repositorio_8hpp_source.html">Repositorio.hpp</a>.</p>
+
+</div>
+</div>
+<hr/>A documentação para essa estrutura foi gerada a partir do seguinte arquivo:<ul>
+<li><a class="el" href="Repositorio_8hpp_source.html">Repositorio.hpp</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Gerado por&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.7
+</small></address>
+</body>
+</html>

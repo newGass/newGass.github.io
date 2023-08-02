@@ -1,0 +1,5 @@
+<map id="GA::melhordaPopulacao" name="GA::melhordaPopulacao">
+<area shape="rect" id="Node000001" title="Obtem o melhor individio dentre todos da populacao." alt="" coords="5,5,183,33"/>
+<area shape="rect" id="Node000002" href="$classGA.html#a6355ba709420cc330c585e7f01d80c13" title="Obtem o melhor individuo dentre os presentes no vetor recebido." alt="" coords="231,5,325,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="183,17,216,17,216,22,183,22"/>
+</map>

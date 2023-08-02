@@ -1,0 +1,5 @@
+<map id="GA::piordaPopulacao" name="GA::piordaPopulacao">
+<area shape="rect" id="Node000001" title="Obtem o pior individio dentre todos da populacao." alt="" coords="5,5,162,33"/>
+<area shape="rect" id="Node000002" href="$classGA.html#ab0640869b7ba47aa0e02010986a06862" title="Obtem o melhor individuo dentre os presentes no vetor recebido." alt="" coords="210,5,283,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="162,17,195,17,195,22,162,22"/>
+</map>

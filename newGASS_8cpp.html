@@ -1,0 +1,260 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt-BR">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.7"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>GASS: Referência do Arquivo newGASS.cpp</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">GASS<span id="projectnumber">&#160;2.0</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Gerado por Doxygen 1.9.7 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Busca');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Carregando...</div>
+<div class="SRStatus" id="Searching">Procurando...</div>
+<div class="SRStatus" id="NoMatches">Nenhuma entrada encontrado</div>
+</div>
+</div>
+</div>
+</div>
+
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#namespaces">Namespaces</a> &#124;
+<a href="#func-members">Funções</a> &#124;
+<a href="#var-members">Variáveis</a>  </div>
+  <div class="headertitle"><div class="title">Referência do Arquivo newGASS.cpp</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &quot;<a class="el" href="newGASS_8hpp_source.html">newGASS.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="Atomo_8hpp_source.html">Atomo.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="site_8hpp_source.html">site.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="Repositorio_8hpp_source.html">Repositorio.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="GA_8hpp_source.html">GA.hpp</a>&quot;</code><br />
+<code>#include &lt;string&gt;</code><br />
+<code>#include &lt;fstream&gt;</code><br />
+<code>#include &lt;iostream&gt;</code><br />
+<code>#include &lt;vector&gt;</code><br />
+<code>#include &lt;set&gt;</code><br />
+<code>#include &lt;thread&gt;</code><br />
+<code>#include &lt;chrono&gt;</code><br />
+<code>#include &lt;queue&gt;</code><br />
+<code>#include &lt;mutex&gt;</code><br />
+</div><div class="textblock"><div class="dynheader">
+Gráfico de dependência de inclusões para newGASS.cpp:</div>
+<div class="dyncontent">
+<div class="center"><img src="newGASS_8cpp__incl.png" border="0" usemap="#anewGASS_8cpp" alt=""/></div>
+<map name="anewGASS_8cpp" id="anewGASS_8cpp">
+<area shape="rect" title=" " alt="" coords="948,5,1058,33"/>
+<area shape="rect" href="newGASS_8hpp.html" title=" " alt="" coords="862,81,973,109"/>
+<area shape="poly" title=" " alt="" coords="989,36,945,73,942,69,986,32"/>
+<area shape="rect" href="Atomo_8hpp.html" title=" " alt="" coords="471,308,564,336"/>
+<area shape="poly" title=" " alt="" coords="950,36,889,56,825,83,708,173,547,301,543,296,704,169,823,79,887,51,948,31"/>
+<area shape="rect" title=" " alt="" coords="488,384,547,411"/>
+<area shape="poly" title=" " alt="" coords="947,26,712,39,399,66,249,86,125,110,76,123,40,138,17,154,9,170,9,247,10,296,17,315,34,334,67,352,114,366,173,377,237,385,369,392,473,394,473,399,368,398,237,390,172,382,113,372,64,357,30,338,13,318,5,297,4,248,4,169,13,150,37,133,75,118,124,105,249,81,398,61,711,34,947,20"/>
+<area shape="rect" href="site_8hpp.html" title=" " alt="" coords="198,232,271,260"/>
+<area shape="poly" title=" " alt="" coords="947,26,788,37,583,60,481,78,388,100,313,127,284,142,262,159,252,171,245,187,238,218,233,217,240,185,247,169,258,155,281,138,311,122,387,95,480,73,582,55,788,32,947,20"/>
+<area shape="rect" title=" " alt="" coords="204,308,266,336"/>
+<area shape="poly" title=" " alt="" coords="947,25,813,31,641,42,475,59,408,70,357,84,294,107,248,135,230,152,214,174,188,233,185,246,188,259,198,278,212,296,207,299,193,281,183,261,180,246,183,232,209,171,226,149,245,131,292,103,355,78,407,65,475,54,641,37,812,26,947,20"/>
+<area shape="rect" href="Repositorio_8hpp.html" title=" " alt="" coords="736,232,859,260"/>
+<area shape="poly" title=" " alt="" coords="948,35,898,53,873,67,851,83,827,113,812,150,804,186,801,218,795,217,799,185,807,148,823,111,848,79,870,62,895,48,946,30"/>
+<area shape="rect" title=" " alt="" coords="1415,308,1487,336"/>
+<area shape="poly" title=" " alt="" coords="1059,22,1227,41,1310,57,1344,67,1368,79,1393,99,1412,125,1427,153,1438,184,1450,244,1454,293,1448,293,1445,244,1433,185,1422,155,1408,127,1389,103,1365,83,1342,72,1309,62,1227,46,1058,27"/>
+<area shape="rect" title=" " alt="" coords="1311,308,1390,336"/>
+<area shape="poly" title=" " alt="" coords="1059,17,1118,21,1188,31,1261,49,1331,79,1356,94,1374,109,1388,129,1400,156,1406,194,1400,232,1386,268,1370,296,1366,294,1381,265,1394,231,1401,194,1395,157,1383,131,1370,113,1353,98,1328,83,1260,54,1187,36,1117,26,1058,23"/>
+<area shape="rect" href="GA_8hpp.html" title=" " alt="" coords="539,157,608,184"/>
+<area shape="poly" title=" " alt="" coords="947,26,866,33,772,44,686,61,652,71,628,83,614,96,602,112,585,144,580,142,597,109,610,92,625,79,651,66,685,56,771,39,865,28,947,21"/>
+<area shape="rect" title=" " alt="" coords="1035,232,1077,260"/>
+<area shape="poly" title=" " alt="" coords="1059,19,1135,28,1224,49,1268,67,1310,90,1347,119,1378,155,1384,171,1378,186,1358,201,1328,214,1249,231,1164,242,1092,246,1092,241,1163,236,1249,226,1326,209,1355,197,1374,183,1379,171,1374,158,1344,123,1307,94,1266,72,1222,54,1134,33,1058,24"/>
+<area shape="rect" title=" " alt="" coords="1038,157,1101,184"/>
+<area shape="poly" title=" " alt="" coords="1011,32,1060,142,1055,144,1006,34"/>
+<area shape="rect" title=" " alt="" coords="1125,157,1190,184"/>
+<area shape="poly" title=" " alt="" coords="1018,31,1135,144,1131,148,1014,35"/>
+<area shape="rect" title=" " alt="" coords="1215,157,1276,184"/>
+<area shape="poly" title=" " alt="" coords="1025,31,1214,147,1211,151,1022,36"/>
+<area shape="rect" title=" " alt="" coords="1300,157,1364,184"/>
+<area shape="poly" title=" " alt="" coords="1035,31,1144,79,1293,147,1290,152,1142,83,1032,36"/>
+<area shape="poly" title=" " alt="" coords="894,111,811,159,770,187,739,212,708,236,665,262,617,286,570,305,568,300,615,281,663,258,705,231,736,208,767,183,808,154,891,107"/>
+<area shape="poly" title=" " alt="" coords="916,109,910,144,911,164,917,183,937,213,960,231,1024,257,1064,270,1109,276,1199,282,1234,286,1258,295,1265,302,1266,312,1250,338,1219,348,1153,357,954,374,562,397,561,391,954,369,1152,352,1218,343,1246,334,1260,311,1260,304,1255,299,1233,291,1198,287,1109,281,1063,275,1022,263,957,235,934,217,912,186,906,165,905,144,911,109"/>
+<area shape="poly" title=" " alt="" coords="861,98,729,100,563,107,480,115,404,126,340,140,295,159,279,171,266,187,247,220,242,217,262,184,275,167,292,154,339,135,403,120,479,110,562,102,729,94,861,93"/>
+<area shape="poly" title=" " alt="" coords="861,100,757,109,622,130,549,148,475,170,403,199,336,235,293,266,258,299,255,295,290,262,333,230,401,194,473,165,547,142,621,125,757,104,861,95"/>
+<area shape="poly" title=" " alt="" coords="891,112,860,131,832,158,815,188,805,219,800,217,810,186,827,155,857,127,888,107"/>
+<area shape="poly" title=" " alt="" coords="931,107,972,144,1027,182,1084,204,1187,237,1401,303,1399,308,1185,243,1083,209,1024,187,968,148,928,111"/>
+<area shape="poly" title=" " alt="" coords="926,107,948,144,964,165,983,182,1030,204,1115,237,1299,300,1297,305,1113,242,1027,209,980,187,960,168,944,147,921,110"/>
+<area shape="poly" title=" " alt="" coords="862,111,623,161,622,156,861,105"/>
+<area shape="poly" title=" " alt="" coords="919,109,919,145,924,165,933,183,947,194,969,207,1022,230,1020,235,967,212,944,199,929,186,919,167,914,145,913,109"/>
+<area shape="poly" title=" " alt="" coords="946,107,1030,147,1028,152,943,112"/>
+<area shape="poly" title=" " alt="" coords="961,107,1111,152,1109,157,960,112"/>
+<area shape="poly" title=" " alt="" coords="974,104,1201,154,1200,159,973,110"/>
+<area shape="poly" title=" " alt="" coords="974,101,1112,121,1286,154,1285,159,1111,126,973,106"/>
+<area shape="poly" title=" " alt="" coords="520,336,520,369,515,369,515,336"/>
+<area shape="rect" href="AtomoCompat_8hpp.html" title=" " alt="" coords="823,384,966,411"/>
+<area shape="poly" title=" " alt="" coords="565,330,813,378,812,383,564,335"/>
+<area shape="poly" title=" " alt="" coords="272,254,458,302,456,307,271,260"/>
+<area shape="poly" title=" " alt="" coords="222,262,207,278,194,297,188,317,189,326,194,334,212,348,240,360,316,377,401,387,474,392,473,397,400,392,315,382,239,365,210,353,190,337,184,327,183,316,189,295,203,275,218,259"/>
+<area shape="poly" title=" " alt="" coords="237,261,237,293,232,293,232,261"/>
+<area shape="rect" title=" " alt="" coords="290,308,353,336"/>
+<area shape="poly" title=" " alt="" coords="252,259,297,296,293,300,249,263"/>
+<area shape="rect" title=" " alt="" coords="45,308,129,336"/>
+<area shape="poly" title=" " alt="" coords="209,263,127,304,125,299,207,258"/>
+<area shape="poly" title=" " alt="" coords="748,263,579,307,577,302,747,258"/>
+<area shape="poly" title=" " alt="" coords="747,263,689,283,628,310,581,342,543,375,539,371,578,338,625,306,687,278,746,258"/>
+<area shape="poly" title=" " alt="" coords="860,255,1025,284,1124,306,1135,326,1133,343,1121,357,1100,369,1045,384,982,393,981,388,1044,379,1098,364,1117,353,1128,341,1130,327,1121,310,1024,290,859,261"/>
+<area shape="poly" title=" " alt="" coords="736,254,537,272,411,289,281,311,280,305,410,283,536,267,735,249"/>
+<area shape="rect" title=" " alt="" coords="1186,308,1236,336"/>
+<area shape="poly" title=" " alt="" coords="860,255,1167,305,1172,306,1171,312,1166,311,859,260"/>
+<area shape="rect" title=" " alt="" coords="638,308,762,336"/>
+<area shape="poly" title=" " alt="" coords="782,263,730,301,727,297,778,258"/>
+<area shape="rect" title=" " alt="" coords="786,308,900,336"/>
+<area shape="poly" title=" " alt="" coords="808,259,829,294,825,297,803,262"/>
+<area shape="rect" title=" " alt="" coords="925,308,1001,336"/>
+<area shape="poly" title=" " alt="" coords="828,258,921,299,919,304,826,263"/>
+<area shape="rect" title=" " alt="" coords="1025,308,1111,336"/>
+<area shape="poly" title=" " alt="" coords="846,258,1011,302,1010,308,845,263"/>
+<area shape="poly" title=" " alt="" coords="860,248,1094,265,1245,282,1401,305,1400,310,1244,287,1093,271,860,253"/>
+<area shape="poly" title=" " alt="" coords="860,253,1297,311,1296,316,859,258"/>
+<area shape="poly" title=" " alt="" coords="540,182,286,236,285,231,539,177"/>
+<area shape="poly" title=" " alt="" coords="539,184,471,205,393,235,326,269,269,302,266,298,323,264,391,230,469,200,538,179"/>
+<area shape="poly" title=" " alt="" coords="540,187,491,207,437,235,389,268,348,301,345,296,386,263,435,230,488,203,538,182"/>
+<area shape="poly" title=" " alt="" coords="539,173,471,175,381,183,282,201,233,216,187,235,142,265,108,299,104,295,139,260,184,230,231,211,281,196,381,177,471,169,539,168"/>
+<area shape="poly" title=" " alt="" coords="609,181,744,225,743,230,607,186"/>
+<area shape="poly" title=" " alt="" coords="608,173,726,193,799,209,872,230,901,244,929,257,1031,281,1171,310,1170,315,1030,286,927,263,898,249,870,235,798,214,725,198,608,179"/>
+<area shape="poly" title=" " alt="" coords="608,174,745,196,919,230,1023,257,1171,287,1297,309,1296,314,1170,293,1022,263,918,235,744,201,607,179"/>
+<area shape="rect" href="Individuo_8hpp.html" title=" " alt="" coords="448,232,557,260"/>
+<area shape="poly" title=" " alt="" coords="563,187,527,223,523,220,559,183"/>
+<area shape="rect" title=" " alt="" coords="376,308,448,336"/>
+<area shape="poly" title=" " alt="" coords="579,184,583,221,581,242,571,262,530,283,463,307,461,302,528,278,567,258,575,241,578,221,574,185"/>
+<area shape="poly" title=" " alt="" coords="609,174,1021,237,1020,242,608,180"/>
+<area shape="poly" title=" " alt="" coords="508,260,515,293,509,294,503,261"/>
+<area shape="poly" title=" " alt="" coords="454,263,281,310,280,305,453,258"/>
+<area shape="poly" title=" " alt="" coords="471,263,367,305,366,300,469,258"/>
+<area shape="poly" title=" " alt="" coords="488,263,441,301,437,297,485,258"/>
+</map>
+</div>
+</div>
+<p><a href="newGASS_8cpp_source.html">Ir para o código-fonte desse arquivo.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
+Namespaces</h2></td></tr>
+<tr class="memitem:namespaceGASS"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceGASS.html">GASS</a></td></tr>
+<tr class="memdesc:namespaceGASS"><td class="mdescLeft">&#160;</td><td class="mdescRight">Namespace que contém as funções e estruturas do sistema <a class="el" href="namespaceGASS.html" title="Namespace que contém as funções e estruturas do sistema GASS.">GASS</a>. <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Funções</h2></td></tr>
+<tr class="memitem:a8ba7f1b507e6a570ba249ab05a5b5dd6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceGASS.html#a8ba7f1b507e6a570ba249ab05a5b5dd6">GASS::readConfigFile</a> (std::string configFileName)</td></tr>
+<tr class="memdesc:a8ba7f1b507e6a570ba249ab05a5b5dd6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lê o arquivo de configuração.  <br /></td></tr>
+<tr class="separator:a8ba7f1b507e6a570ba249ab05a5b5dd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a93d0c866b600ba35c74a6fe57e37c2c4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceGASS.html#a93d0c866b600ba35c74a6fe57e37c2c4">GASS::readConfigFile</a> (std::string configFileName, <a class="el" href="structGASS_1_1Parameters.html">Parameters</a> &amp;params)</td></tr>
+<tr class="separator:a93d0c866b600ba35c74a6fe57e37c2c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a4e9c70e4c5ad60e06cb49a1729dfe9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceGASS.html#a0a4e9c70e4c5ad60e06cb49a1729dfe9">GASS::readTemplateFile</a> (std::string templateFileName, <a class="el" href="structsite.html">site</a> &amp;ref_site)</td></tr>
+<tr class="memdesc:a0a4e9c70e4c5ad60e06cb49a1729dfe9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lê o arquivo de template.  <br /></td></tr>
+<tr class="separator:a0a4e9c70e4c5ad60e06cb49a1729dfe9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a772c9847d2ec3ca70785c76f45f8e2c7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceGASS.html#a772c9847d2ec3ca70785c76f45f8e2c7">GASS::readSetupTemplateFile</a> (std::string setupTemplateFileName, std::vector&lt; <a class="el" href="structsite.html">site</a> &gt; &amp;templates)</td></tr>
+<tr class="memdesc:a772c9847d2ec3ca70785c76f45f8e2c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lê o arquivo de configuração de template.  <br /></td></tr>
+<tr class="separator:a772c9847d2ec3ca70785c76f45f8e2c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad0e392b1b5ec9bfd0357d86f034415c0"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceGASS.html#ad0e392b1b5ec9bfd0357d86f034415c0">GASS::getSitesByPdbId</a> (std::string pdbId, std::vector&lt; <a class="el" href="structsite.html">site</a> &gt; &amp;sites)</td></tr>
+<tr class="memdesc:ad0e392b1b5ec9bfd0357d86f034415c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Obtém sites pelo ID do PDB.  <br /></td></tr>
+<tr class="separator:ad0e392b1b5ec9bfd0357d86f034415c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a35d0582343c7649dc506a016d46e2c2b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceGASS.html#a35d0582343c7649dc506a016d46e2c2b">GASS::readSubstitutuionMatrix</a> (std::string fileName, std::vector&lt; <a class="el" href="structsite.html">site</a> &gt; &amp;sites)</td></tr>
+<tr class="memdesc:a35d0582343c7649dc506a016d46e2c2b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lê a matriz de substituição.  <br /></td></tr>
+<tr class="separator:a35d0582343c7649dc506a016d46e2c2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9dde04a068714a3fb4d638432e365a87"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceGASS.html#a9dde04a068714a3fb4d638432e365a87">GASS::setup</a> (std::vector&lt; <a class="el" href="structsite.html">site</a> &gt; &amp;templates, std::vector&lt; <a class="el" href="structRepositorio.html">Repositorio</a> &gt; &amp;repositorios, std::string configFileName, std::string templatesFolderName, std::string runListFileName)</td></tr>
+<tr class="memdesc:a9dde04a068714a3fb4d638432e365a87"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inicializa o setup lendo a configuração, templates, repositórios, etc.  <br /></td></tr>
+<tr class="separator:a9dde04a068714a3fb4d638432e365a87"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a401258f302a5ee835177e98f8e10bfb7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceGASS.html#a401258f302a5ee835177e98f8e10bfb7">GASS::run</a> (std::vector&lt; <a class="el" href="structsite.html">site</a> &gt; &amp;templates, <a class="el" href="structRepositorio.html">Repositorio</a> &amp;repositorio)</td></tr>
+<tr class="memdesc:a401258f302a5ee835177e98f8e10bfb7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Executa o algoritmo genético (<a class="el" href="classGA.html" title="Classe que representa um algoritmo genético.">GA</a>) para diversos templates e quadrantes, consolidando os resultados.  <br /></td></tr>
+<tr class="separator:a401258f302a5ee835177e98f8e10bfb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7120397ceb2f405898c39e73bfcadd19"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceGASS.html#a7120397ceb2f405898c39e73bfcadd19">GASS::run</a> (std::vector&lt; <a class="el" href="structsite.html">site</a> &gt; &amp;templates, <a class="el" href="structRepositorio.html">Repositorio</a> &amp;repositorio, std::string outputName)</td></tr>
+<tr class="memdesc:a7120397ceb2f405898c39e73bfcadd19"><td class="mdescLeft">&#160;</td><td class="mdescRight">Executa o algoritmo genético (<a class="el" href="classGA.html" title="Classe que representa um algoritmo genético.">GA</a>) para diversos templates e quadrantes, consolidando os resultados.  <br /></td></tr>
+<tr class="separator:a7120397ceb2f405898c39e73bfcadd19"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ffc31a9d4db2438aecbfe63e5322ef8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceGASS.html#a2ffc31a9d4db2438aecbfe63e5322ef8">GASS::run</a> (std::vector&lt; <a class="el" href="structsite.html">site</a> &gt; &amp;templates, <a class="el" href="structRepositorio.html">Repositorio</a> &amp;repositorio, std::string outputName, <a class="el" href="structGASS_1_1Parameters.html">Parameters</a> parameters)</td></tr>
+<tr class="memdesc:a2ffc31a9d4db2438aecbfe63e5322ef8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Executa o algoritmo genético (<a class="el" href="classGA.html" title="Classe que representa um algoritmo genético.">GA</a>) para diversos templates e quadrantes, consolidando os resultados.  <br /></td></tr>
+<tr class="separator:a2ffc31a9d4db2438aecbfe63e5322ef8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ab7cff6ca6be04f7d006013b17c59da"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceGASS.html#a1ab7cff6ca6be04f7d006013b17c59da">GASS::runOneToOne</a> (<a class="el" href="structsite.html">site</a> *temp, <a class="el" href="structRepositorio.html">Repositorio</a> *repositorio, std::set&lt; <a class="el" href="classIndividuo.html">Individuo</a> &gt; *results)</td></tr>
+<tr class="memdesc:a1ab7cff6ca6be04f7d006013b17c59da"><td class="mdescLeft">&#160;</td><td class="mdescRight">Executa um algoritmo genético (<a class="el" href="classGA.html" title="Classe que representa um algoritmo genético.">GA</a>) em paralelo em múltiplos quadrantes e depois consolida os resultados.  <br /></td></tr>
+<tr class="separator:a1ab7cff6ca6be04f7d006013b17c59da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac2832826bf351720679129bf9837ace6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceGASS.html#ac2832826bf351720679129bf9837ace6">GASS::runOneToOne</a> (<a class="el" href="structsite.html">site</a> *temp, <a class="el" href="structRepositorio.html">Repositorio</a> *repositorio, std::set&lt; <a class="el" href="classIndividuo.html">Individuo</a> &gt; *results, <a class="el" href="structGASS_1_1Parameters.html">Parameters</a> param)</td></tr>
+<tr class="memdesc:ac2832826bf351720679129bf9837ace6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Executa um algoritmo genético (<a class="el" href="classGA.html" title="Classe que representa um algoritmo genético.">GA</a>) em paralelo em múltiplos quadrantes e depois consolida os resultados.  <br /></td></tr>
+<tr class="separator:ac2832826bf351720679129bf9837ace6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ed226d11921ae44178c7b558b20641c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceGASS.html#a4ed226d11921ae44178c7b558b20641c">GASS::readRunFile</a> (std::string fileName, std::vector&lt; std::string &gt; &amp;proteinNames)</td></tr>
+<tr class="memdesc:a4ed226d11921ae44178c7b558b20641c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lê o arquivo de execução contendo nomes de proteínas.  <br /></td></tr>
+<tr class="separator:a4ed226d11921ae44178c7b558b20641c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7de0487e57ce7191088bf31ecfa9a78a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceGASS.html#a7de0487e57ce7191088bf31ecfa9a78a">GASS::runSanityTest</a> (<a class="el" href="structGASS_1_1Parameters.html">Parameters</a> param, std::set&lt; <a class="el" href="classIndividuo.html">Individuo</a> &gt; *results)</td></tr>
+<tr class="memdesc:a7de0487e57ce7191088bf31ecfa9a78a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Executa um teste de sanidade para a execução do <a class="el" href="classGA.html" title="Classe que representa um algoritmo genético.">GA</a>.  <br /></td></tr>
+<tr class="separator:a7de0487e57ce7191088bf31ecfa9a78a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
+Variáveis</h2></td></tr>
+<tr class="memitem:a9ea1fd001680b9ac31103c60a5a780c9"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceGASS.html#a9ea1fd001680b9ac31103c60a5a780c9">GASS::AG_POPULATION_SIZE</a></td></tr>
+<tr class="separator:a9ea1fd001680b9ac31103c60a5a780c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a40de3528f0a408fafb77a2454c90d56a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceGASS.html#a40de3528f0a408fafb77a2454c90d56a">GASS::AG_NUMBER_OF_GENERATIONS</a></td></tr>
+<tr class="separator:a40de3528f0a408fafb77a2454c90d56a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace4134b59f29ada0c6c6de6f6e38b60d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceGASS.html#ace4134b59f29ada0c6c6de6f6e38b60d">GASS::AG_NUMBER_OF_ELITE_INDIVIDUALS</a></td></tr>
+<tr class="separator:ace4134b59f29ada0c6c6de6f6e38b60d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a09c45c2f773a3a27dda040a7b0bf5253"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceGASS.html#a09c45c2f773a3a27dda040a7b0bf5253">GASS::AG_TOURNAMENT_SIZE</a></td></tr>
+<tr class="separator:a09c45c2f773a3a27dda040a7b0bf5253"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c999f21224347d2f8e5aa6dcef1c417"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceGASS.html#a3c999f21224347d2f8e5aa6dcef1c417">GASS::AG_MUTATION_RATE</a></td></tr>
+<tr class="separator:a3c999f21224347d2f8e5aa6dcef1c417"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca2dbf08522f3bf15e7fa603b63b7dce"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceGASS.html#aca2dbf08522f3bf15e7fa603b63b7dce">GASS::AG_CROSSOVER_RATE</a></td></tr>
+<tr class="separator:aca2dbf08522f3bf15e7fa603b63b7dce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad34ca37374959b682c3b9fccb068f019"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceGASS.html#ad34ca37374959b682c3b9fccb068f019">GASS::GASS_NUMBER_OF_TEMPLATES</a></td></tr>
+<tr class="separator:ad34ca37374959b682c3b9fccb068f019"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Gerado por&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.7
+</small></address>
+</body>
+</html>

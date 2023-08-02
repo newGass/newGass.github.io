@@ -1,0 +1,159 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt-BR">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.7"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>GASS: Código-Fonte de Atomo.hpp</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">GASS<span id="projectnumber">&#160;2.0</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Gerado por Doxygen 1.9.7 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Busca');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Carregando...</div>
+<div class="SRStatus" id="Searching">Procurando...</div>
+<div class="SRStatus" id="NoMatches">Nenhuma entrada encontrado</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">Atomo.hpp</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="Atomo_8hpp.html">Ir para a documentação desse arquivo.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="comment">//---&gt; STRUCTURE ATOMO - GENE OF THE INDIVIDUAL &lt;---//</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#pragma once</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &lt;string&gt;</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;<a class="code" href="AtomoCompat_8hpp.html">AtomoCompat.hpp</a>&quot;</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno"><a class="line" href="structAtomo.html">    9</a></span><span class="keyword">struct </span><a class="code hl_struct" href="structAtomo.html">Atomo</a></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span>{</div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno"><a class="line" href="structAtomo.html#a681dce680e1896315b0b27113978c4a5">   11</a></span>    std::string <a class="code hl_variable" href="structAtomo.html#a681dce680e1896315b0b27113978c4a5">amino</a>; </div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno"><a class="line" href="structAtomo.html#a929ba00fb2d59a3f38d012fc8ca48890">   12</a></span>    std::string <a class="code hl_variable" href="structAtomo.html#a929ba00fb2d59a3f38d012fc8ca48890">atomo</a>; </div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno"><a class="line" href="structAtomo.html#ac8e6dbe58f79dfe8a3f498168f39f232">   13</a></span>    <span class="keywordtype">int</span> <a class="code hl_variable" href="structAtomo.html#ac8e6dbe58f79dfe8a3f498168f39f232">amino_ID</a>;      </div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno"><a class="line" href="structAtomo.html#a316e4307b602f91359d625dfcb05ae93">   14</a></span>    <span class="keywordtype">char</span> <a class="code hl_variable" href="structAtomo.html#a316e4307b602f91359d625dfcb05ae93">cadeia</a>;       </div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno"><a class="line" href="structAtomo.html#aa0312b7aceaca2ecb4fd21081eb19f43">   15</a></span>    <span class="keywordtype">int</span> <a class="code hl_variable" href="structAtomo.html#aa0312b7aceaca2ecb4fd21081eb19f43">atomo_ID</a>;      </div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="structAtomo.html#ab5bdbebf14b3b4d92bb339d600e74b98">   16</a></span>    <span class="keywordtype">float</span> <a class="code hl_variable" href="structAtomo.html#ab5bdbebf14b3b4d92bb339d600e74b98">x</a>, <a class="code hl_variable" href="structAtomo.html#a2e7bc63ec3ee28a9eb0c578f0b2dbb95">y</a>, <a class="code hl_variable" href="structAtomo.html#a764d8f884b1175ca6724ebe0ce7b347b">z</a>;     </div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="structAtomo.html#a9a72e6c9979eacc49baf02f463503688">   17</a></span>    <span class="keywordtype">int</span> <a class="code hl_variable" href="structAtomo.html#a9a72e6c9979eacc49baf02f463503688">cluster</a>;       </div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno"><a class="line" href="structAtomo.html#ac5439e4574f601cc3d9816fa3e9aff9a">   23</a></span>    <a class="code hl_function" href="structAtomo.html#ac5439e4574f601cc3d9816fa3e9aff9a">Atomo</a>()</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>    {</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>        <a class="code hl_variable" href="structAtomo.html#a681dce680e1896315b0b27113978c4a5">amino</a> = {};</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>        <a class="code hl_variable" href="structAtomo.html#a929ba00fb2d59a3f38d012fc8ca48890">atomo</a> = {};</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>        <a class="code hl_variable" href="structAtomo.html#a316e4307b602f91359d625dfcb05ae93">cadeia</a> = <span class="charliteral">&#39;\0&#39;</span>;</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>        <a class="code hl_variable" href="structAtomo.html#aa0312b7aceaca2ecb4fd21081eb19f43">atomo_ID</a> = 0;</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>        <a class="code hl_variable" href="structAtomo.html#ab5bdbebf14b3b4d92bb339d600e74b98">x</a> = 0.0;</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>        <a class="code hl_variable" href="structAtomo.html#a2e7bc63ec3ee28a9eb0c578f0b2dbb95">y</a> = 0.0;</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>        <a class="code hl_variable" href="structAtomo.html#a764d8f884b1175ca6724ebe0ce7b347b">z</a> = 0.0;</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>        <a class="code hl_variable" href="structAtomo.html#a9a72e6c9979eacc49baf02f463503688">cluster</a>=0;</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span> </div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>    }</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span> </div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno"><a class="line" href="structAtomo.html#ae8267c7c0779a3eec1dcf0c2c3e623c4">   41</a></span>    <a class="code hl_function" href="structAtomo.html#ae8267c7c0779a3eec1dcf0c2c3e623c4">Atomo</a>(<a class="code hl_struct" href="structAtomoCompat.html">AtomoCompat</a> aux)</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>    {</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>        <a class="code hl_variable" href="structAtomo.html#a681dce680e1896315b0b27113978c4a5">amino</a> = aux.<a class="code hl_variable" href="structAtomoCompat.html#a02abadb9057d52463a4b5e8f50b3dc6d">amino</a>;</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>        <a class="code hl_variable" href="structAtomo.html#a929ba00fb2d59a3f38d012fc8ca48890">atomo</a> = aux.<a class="code hl_variable" href="structAtomoCompat.html#aedddeca1d9e51d5df224dd24b980bbb4">atomo</a>;</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>        <a class="code hl_variable" href="structAtomo.html#a316e4307b602f91359d625dfcb05ae93">cadeia</a> = aux.<a class="code hl_variable" href="structAtomoCompat.html#ae7943daec11f862c18a2d35cb368b4cf">cadeia</a>;</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>        <a class="code hl_variable" href="structAtomo.html#aa0312b7aceaca2ecb4fd21081eb19f43">atomo_ID</a> = aux.<a class="code hl_variable" href="structAtomoCompat.html#a4ddb7497309fbee34453592bc2659744">atomo_ID</a>;</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>        <a class="code hl_variable" href="structAtomo.html#ab5bdbebf14b3b4d92bb339d600e74b98">x</a> = aux.<a class="code hl_variable" href="structAtomoCompat.html#a9a035e1cfafc6a5823aef7ef9b076339">x</a>;</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>        <a class="code hl_variable" href="structAtomo.html#a2e7bc63ec3ee28a9eb0c578f0b2dbb95">y</a> = aux.<a class="code hl_variable" href="structAtomoCompat.html#a11ed803813b42da4a95b4e07996102e3">y</a>;</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>        <a class="code hl_variable" href="structAtomo.html#a764d8f884b1175ca6724ebe0ce7b347b">z</a> = aux.<a class="code hl_variable" href="structAtomoCompat.html#a40db487b5344f925d037bb9c71c8db5d">z</a>;</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>        <a class="code hl_variable" href="structAtomo.html#a9a72e6c9979eacc49baf02f463503688">cluster</a>=0;</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>    }</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span> </div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno"><a class="line" href="structAtomo.html#a25edf34817a2a283056bc3cf99dacda9">   59</a></span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="structAtomo.html#a25edf34817a2a283056bc3cf99dacda9">operator==</a>(<span class="keyword">const</span> <a class="code hl_struct" href="structAtomo.html">Atomo</a>&amp; other)<span class="keyword"> const</span></div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span><span class="keyword">    </span>{</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>        <span class="keywordflow">return</span> (<a class="code hl_variable" href="structAtomo.html#a681dce680e1896315b0b27113978c4a5">amino</a> == other.<a class="code hl_variable" href="structAtomo.html#a681dce680e1896315b0b27113978c4a5">amino</a>) &amp;&amp;</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>               (<a class="code hl_variable" href="structAtomo.html#a929ba00fb2d59a3f38d012fc8ca48890">atomo</a> == other.<a class="code hl_variable" href="structAtomo.html#a929ba00fb2d59a3f38d012fc8ca48890">atomo</a>) &amp;&amp;</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>               (<a class="code hl_variable" href="structAtomo.html#a316e4307b602f91359d625dfcb05ae93">cadeia</a> == other.<a class="code hl_variable" href="structAtomo.html#a316e4307b602f91359d625dfcb05ae93">cadeia</a>) &amp;&amp;</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>               (<a class="code hl_variable" href="structAtomo.html#aa0312b7aceaca2ecb4fd21081eb19f43">atomo_ID</a> == other.<a class="code hl_variable" href="structAtomo.html#aa0312b7aceaca2ecb4fd21081eb19f43">atomo_ID</a>) &amp;&amp;</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>               (<a class="code hl_variable" href="structAtomo.html#ab5bdbebf14b3b4d92bb339d600e74b98">x</a> == other.<a class="code hl_variable" href="structAtomo.html#ab5bdbebf14b3b4d92bb339d600e74b98">x</a>) &amp;&amp;</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>               (<a class="code hl_variable" href="structAtomo.html#a2e7bc63ec3ee28a9eb0c578f0b2dbb95">y</a> == other.<a class="code hl_variable" href="structAtomo.html#a2e7bc63ec3ee28a9eb0c578f0b2dbb95">y</a>) &amp;&amp;</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>               (<a class="code hl_variable" href="structAtomo.html#a764d8f884b1175ca6724ebe0ce7b347b">z</a> == other.<a class="code hl_variable" href="structAtomo.html#a764d8f884b1175ca6724ebe0ce7b347b">z</a>);</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>    }</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span> </div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno"><a class="line" href="structAtomo.html#ad19798bff4bd2707ed458e7e5fceefe0">   76</a></span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="structAtomo.html#ad19798bff4bd2707ed458e7e5fceefe0">operator!=</a>(<span class="keyword">const</span> <a class="code hl_struct" href="structAtomo.html">Atomo</a>&amp; other)<span class="keyword"> const</span></div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span><span class="keyword">    </span>{</div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>        <span class="keywordflow">return</span> !(*<span class="keyword">this</span> == other);</div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>    }</div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>};</div>
+<div class="ttc" id="aAtomoCompat_8hpp_html"><div class="ttname"><a href="AtomoCompat_8hpp.html">AtomoCompat.hpp</a></div></div>
+<div class="ttc" id="astructAtomoCompat_html"><div class="ttname"><a href="structAtomoCompat.html">AtomoCompat</a></div><div class="ttdoc">Estrutura que representa um Átomo no modelo anterior do GASS.</div><div class="ttdef"><b>Definição</b> <a href="AtomoCompat_8hpp_source.html#l00008">AtomoCompat.hpp:9</a></div></div>
+<div class="ttc" id="astructAtomoCompat_html_a02abadb9057d52463a4b5e8f50b3dc6d"><div class="ttname"><a href="structAtomoCompat.html#a02abadb9057d52463a4b5e8f50b3dc6d">AtomoCompat::amino</a></div><div class="ttdeci">char amino[5]</div><div class="ttdef"><b>Definição</b> <a href="AtomoCompat_8hpp_source.html#l00010">AtomoCompat.hpp:10</a></div></div>
+<div class="ttc" id="astructAtomoCompat_html_a11ed803813b42da4a95b4e07996102e3"><div class="ttname"><a href="structAtomoCompat.html#a11ed803813b42da4a95b4e07996102e3">AtomoCompat::y</a></div><div class="ttdeci">float y</div><div class="ttdef"><b>Definição</b> <a href="AtomoCompat_8hpp_source.html#l00014">AtomoCompat.hpp:14</a></div></div>
+<div class="ttc" id="astructAtomoCompat_html_a40db487b5344f925d037bb9c71c8db5d"><div class="ttname"><a href="structAtomoCompat.html#a40db487b5344f925d037bb9c71c8db5d">AtomoCompat::z</a></div><div class="ttdeci">float z</div><div class="ttdef"><b>Definição</b> <a href="AtomoCompat_8hpp_source.html#l00014">AtomoCompat.hpp:14</a></div></div>
+<div class="ttc" id="astructAtomoCompat_html_a4ddb7497309fbee34453592bc2659744"><div class="ttname"><a href="structAtomoCompat.html#a4ddb7497309fbee34453592bc2659744">AtomoCompat::atomo_ID</a></div><div class="ttdeci">int atomo_ID</div><div class="ttdef"><b>Definição</b> <a href="AtomoCompat_8hpp_source.html#l00013">AtomoCompat.hpp:13</a></div></div>
+<div class="ttc" id="astructAtomoCompat_html_a9a035e1cfafc6a5823aef7ef9b076339"><div class="ttname"><a href="structAtomoCompat.html#a9a035e1cfafc6a5823aef7ef9b076339">AtomoCompat::x</a></div><div class="ttdeci">float x</div><div class="ttdef"><b>Definição</b> <a href="AtomoCompat_8hpp_source.html#l00014">AtomoCompat.hpp:14</a></div></div>
+<div class="ttc" id="astructAtomoCompat_html_ae7943daec11f862c18a2d35cb368b4cf"><div class="ttname"><a href="structAtomoCompat.html#ae7943daec11f862c18a2d35cb368b4cf">AtomoCompat::cadeia</a></div><div class="ttdeci">char cadeia</div><div class="ttdef"><b>Definição</b> <a href="AtomoCompat_8hpp_source.html#l00012">AtomoCompat.hpp:12</a></div></div>
+<div class="ttc" id="astructAtomoCompat_html_aedddeca1d9e51d5df224dd24b980bbb4"><div class="ttname"><a href="structAtomoCompat.html#aedddeca1d9e51d5df224dd24b980bbb4">AtomoCompat::atomo</a></div><div class="ttdeci">char atomo[4]</div><div class="ttdef"><b>Definição</b> <a href="AtomoCompat_8hpp_source.html#l00011">AtomoCompat.hpp:11</a></div></div>
+<div class="ttc" id="astructAtomo_html"><div class="ttname"><a href="structAtomo.html">Atomo</a></div><div class="ttdoc">Estrutura que representa um Átomo, que é o gene do indivíduo.</div><div class="ttdef"><b>Definição</b> <a href="Atomo_8hpp_source.html#l00009">Atomo.hpp:10</a></div></div>
+<div class="ttc" id="astructAtomo_html_a25edf34817a2a283056bc3cf99dacda9"><div class="ttname"><a href="structAtomo.html#a25edf34817a2a283056bc3cf99dacda9">Atomo::operator==</a></div><div class="ttdeci">bool operator==(const Atomo &amp;other) const</div><div class="ttdoc">Compara a igualdade com outro objeto Atomo.</div><div class="ttdef"><b>Definição</b> <a href="Atomo_8hpp_source.html#l00059">Atomo.hpp:59</a></div></div>
+<div class="ttc" id="astructAtomo_html_a2e7bc63ec3ee28a9eb0c578f0b2dbb95"><div class="ttname"><a href="structAtomo.html#a2e7bc63ec3ee28a9eb0c578f0b2dbb95">Atomo::y</a></div><div class="ttdeci">float y</div><div class="ttdef"><b>Definição</b> <a href="Atomo_8hpp_source.html#l00016">Atomo.hpp:16</a></div></div>
+<div class="ttc" id="astructAtomo_html_a316e4307b602f91359d625dfcb05ae93"><div class="ttname"><a href="structAtomo.html#a316e4307b602f91359d625dfcb05ae93">Atomo::cadeia</a></div><div class="ttdeci">char cadeia</div><div class="ttdoc">Cadeia a que o átomo pertence.</div><div class="ttdef"><b>Definição</b> <a href="Atomo_8hpp_source.html#l00014">Atomo.hpp:14</a></div></div>
+<div class="ttc" id="astructAtomo_html_a681dce680e1896315b0b27113978c4a5"><div class="ttname"><a href="structAtomo.html#a681dce680e1896315b0b27113978c4a5">Atomo::amino</a></div><div class="ttdeci">std::string amino</div><div class="ttdoc">Nome do aminoácido ao qual o átomo pertence.</div><div class="ttdef"><b>Definição</b> <a href="Atomo_8hpp_source.html#l00011">Atomo.hpp:11</a></div></div>
+<div class="ttc" id="astructAtomo_html_a764d8f884b1175ca6724ebe0ce7b347b"><div class="ttname"><a href="structAtomo.html#a764d8f884b1175ca6724ebe0ce7b347b">Atomo::z</a></div><div class="ttdeci">float z</div><div class="ttdoc">Coordenadas do átomo.</div><div class="ttdef"><b>Definição</b> <a href="Atomo_8hpp_source.html#l00016">Atomo.hpp:16</a></div></div>
+<div class="ttc" id="astructAtomo_html_a929ba00fb2d59a3f38d012fc8ca48890"><div class="ttname"><a href="structAtomo.html#a929ba00fb2d59a3f38d012fc8ca48890">Atomo::atomo</a></div><div class="ttdeci">std::string atomo</div><div class="ttdoc">Nome do átomo.</div><div class="ttdef"><b>Definição</b> <a href="Atomo_8hpp_source.html#l00012">Atomo.hpp:12</a></div></div>
+<div class="ttc" id="astructAtomo_html_a9a72e6c9979eacc49baf02f463503688"><div class="ttname"><a href="structAtomo.html#a9a72e6c9979eacc49baf02f463503688">Atomo::cluster</a></div><div class="ttdeci">int cluster</div><div class="ttdoc">Número do cluster.</div><div class="ttdef"><b>Definição</b> <a href="Atomo_8hpp_source.html#l00017">Atomo.hpp:17</a></div></div>
+<div class="ttc" id="astructAtomo_html_aa0312b7aceaca2ecb4fd21081eb19f43"><div class="ttname"><a href="structAtomo.html#aa0312b7aceaca2ecb4fd21081eb19f43">Atomo::atomo_ID</a></div><div class="ttdeci">int atomo_ID</div><div class="ttdoc">ID do átomo.</div><div class="ttdef"><b>Definição</b> <a href="Atomo_8hpp_source.html#l00015">Atomo.hpp:15</a></div></div>
+<div class="ttc" id="astructAtomo_html_ab5bdbebf14b3b4d92bb339d600e74b98"><div class="ttname"><a href="structAtomo.html#ab5bdbebf14b3b4d92bb339d600e74b98">Atomo::x</a></div><div class="ttdeci">float x</div><div class="ttdef"><b>Definição</b> <a href="Atomo_8hpp_source.html#l00016">Atomo.hpp:16</a></div></div>
+<div class="ttc" id="astructAtomo_html_ac5439e4574f601cc3d9816fa3e9aff9a"><div class="ttname"><a href="structAtomo.html#ac5439e4574f601cc3d9816fa3e9aff9a">Atomo::Atomo</a></div><div class="ttdeci">Atomo()</div><div class="ttdoc">Construtor padrão.</div><div class="ttdef"><b>Definição</b> <a href="Atomo_8hpp_source.html#l00023">Atomo.hpp:23</a></div></div>
+<div class="ttc" id="astructAtomo_html_ac8e6dbe58f79dfe8a3f498168f39f232"><div class="ttname"><a href="structAtomo.html#ac8e6dbe58f79dfe8a3f498168f39f232">Atomo::amino_ID</a></div><div class="ttdeci">int amino_ID</div><div class="ttdoc">ID do aminoácido.</div><div class="ttdef"><b>Definição</b> <a href="Atomo_8hpp_source.html#l00013">Atomo.hpp:13</a></div></div>
+<div class="ttc" id="astructAtomo_html_ad19798bff4bd2707ed458e7e5fceefe0"><div class="ttname"><a href="structAtomo.html#ad19798bff4bd2707ed458e7e5fceefe0">Atomo::operator!=</a></div><div class="ttdeci">bool operator!=(const Atomo &amp;other) const</div><div class="ttdoc">Compara a diferença com outro objeto Atomo.</div><div class="ttdef"><b>Definição</b> <a href="Atomo_8hpp_source.html#l00076">Atomo.hpp:76</a></div></div>
+<div class="ttc" id="astructAtomo_html_ae8267c7c0779a3eec1dcf0c2c3e623c4"><div class="ttname"><a href="structAtomo.html#ae8267c7c0779a3eec1dcf0c2c3e623c4">Atomo::Atomo</a></div><div class="ttdeci">Atomo(AtomoCompat aux)</div><div class="ttdoc">Construtor a partir de um objeto AtomoCompat.</div><div class="ttdef"><b>Definição</b> <a href="Atomo_8hpp_source.html#l00041">Atomo.hpp:41</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Gerado por&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.7
+</small></address>
+</body>
+</html>

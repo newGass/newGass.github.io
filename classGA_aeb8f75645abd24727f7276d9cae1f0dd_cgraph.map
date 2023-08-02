@@ -1,0 +1,9 @@
+<map id="GA::cruzaPopulacao" name="GA::cruzaPopulacao">
+<area shape="rect" id="Node000001" title="Aplica o operador de cruzamento em toda a populacao gerando uma nova populacao." alt="" coords="5,32,156,60"/>
+<area shape="rect" id="Node000002" href="$classGA.html#a9ee9f5698e808cdc21b8eb1979f6d05a" title="Realiza o cruzamento entre dois indivíduos usando o método de single&#45;point crossover." alt="" coords="209,5,293,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="155,31,194,25,195,31,156,37"/>
+<area shape="rect" id="Node000003" href="$classGA.html#ae3806f7d524f033a4e7a4028f77ab473" title="Realiza uma seleção de torneio entre um subconjunto de indivíduos da população, retornando o indivídu..." alt="" coords="204,57,298,85"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="156,54,189,59,189,65,155,60"/>
+<area shape="rect" id="Node000004" href="$classIndividuo.html#a03a9cb64bdee0b14c722ab187f3e8c74" title="Retorna a aptidao deste individuo." alt="" coords="346,57,502,85"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="298,69,331,69,331,74,298,74"/>
+</map>

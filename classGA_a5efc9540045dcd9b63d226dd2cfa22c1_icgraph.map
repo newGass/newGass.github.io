@@ -1,0 +1,39 @@
+<map id="GA::calculaFit" name="GA::calculaFit">
+<area shape="rect" id="Node000001" title="Calcula o valor de aptidão (fitness) de um indivíduo com base na distância entre seus átomos e outros..." alt="" coords="1066,84,1176,112"/>
+<area shape="rect" id="Node000002" href="$classGA.html#a29fdc919b4f0e8c14ad11c6e6888f3ab" title="Calcula a aptidao de cada individuo da populacao." alt="" coords="550,32,728,60"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1055,83,1018,75,865,58,728,50,728,45,865,53,1018,70,1056,77"/>
+<area shape="rect" id="Node000012" href="$classGA.html#a8854b257d07d1eb37b7b620ba3ebb95f" title="Realiza uma mutação em um indivíduo da população, substituindo um aminoácido em uma posição seleciona..." alt="" coords="870,84,952,112"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="1051,101,952,101,952,95,1051,95"/>
+<area shape="rect" id="Node000014" href="$classGA.html#adda4cc49dfb003949047c169c6ae01f0" title="Realiza substituições conservativas nas cadeias de aminoácidos do indivíduo fornecido,..." alt="" coords="804,136,1018,164"/>
+<area shape="poly" id="edge17_Node000001_Node000014" title=" " alt="" coords="1053,117,971,138,969,133,1051,112"/>
+<area shape="rect" id="Node000003" href="$classGA.html#a6baac59ec282ba023e86feefbf7b5070" title="Executa o GA por g gerações." alt="" coords="405,109,474,137"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="547,67,523,75,490,92,462,111,459,107,487,88,521,70,545,62"/>
+<area shape="rect" id="Node000009" href="$classGA.html#ac545a7d926fa259bb2ad174a87d22900" title="Executa o GA por g gerações em um determinado quadrante." alt="" coords="405,161,474,189"/>
+<area shape="poly" id="edge8_Node000002_Node000009" title=" " alt="" coords="538,66,524,75,507,91,499,109,491,129,476,150,463,163,460,159,472,147,486,126,494,107,503,88,521,70,536,62"/>
+<area shape="rect" id="Node000010" href="$classGA.html#a8eda2189e926951ba021d7602759bea6" title="Executa o GA por g gerações com uma populaçãi inicial determinada." alt="" coords="405,5,474,33"/>
+<area shape="poly" id="edge9_Node000002_Node000010" title=" " alt="" coords="535,35,474,26,475,21,536,29"/>
+<area shape="rect" id="Node000011" href="$classGA.html#ab72582e6d5f124b1f102c4cbf9bff933" title="Executa o algoritmo genético, evoluindo a população." alt="" coords="405,57,474,85"/>
+<area shape="poly" id="edge10_Node000002_Node000011" title=" " alt="" coords="536,62,475,69,474,64,535,56"/>
+<area shape="rect" id="Node000004" href="$namespaceGASS.html#a7120397ceb2f405898c39e73bfcadd19" title="Executa o algoritmo genético (GA) para diversos templates e quadrantes, consolidando os resultados." alt="" coords="239,31,324,58"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="406,103,356,74,324,60,326,55,358,69,408,99"/>
+<area shape="rect" id="Node000005" href="$namespaceGASS.html#a2ffc31a9d4db2438aecbfe63e5322ef8" title="Executa o algoritmo genético (GA) para diversos templates e quadrantes, consolidando os resultados." alt="" coords="239,83,324,110"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="390,118,324,106,325,101,391,112"/>
+<area shape="rect" id="Node000006" href="$namespaceGASS.html#a1ab7cff6ca6be04f7d006013b17c59da" title="Executa um algoritmo genético (GA) em paralelo em múltiplos quadrantes e depois consolida os resultad..." alt="" coords="206,135,357,162"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="391,134,358,139,357,134,390,128"/>
+<area shape="rect" id="Node000008" href="$namespaceGASS.html#ac2832826bf351720679129bf9837ace6" title="Executa um algoritmo genético (GA) em paralelo em múltiplos quadrantes e depois consolida os resultad..." alt="" coords="206,187,357,214"/>
+<area shape="poly" id="edge7_Node000003_Node000008" title=" " alt="" coords="408,148,358,176,329,189,327,184,356,171,405,143"/>
+<area shape="rect" id="Node000007" href="$namespaceGASS.html#a7de0487e57ce7191088bf31ecfa9a78a" title="Executa um teste de sanidade para a execução do GA." alt="" coords="5,135,158,162"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="191,151,158,151,158,146,191,146"/>
+<area shape="rect" id="Node000013" href="$classGA.html#a574aca4689509167b4c9f9e9ea11d91c" title="Aplica o operador de mutação em cada individuo da populacao." alt="" coords="564,84,714,112"/>
+<area shape="poly" id="edge12_Node000012_Node000013" title=" " alt="" coords="855,101,714,101,714,95,855,95"/>
+<area shape="poly" id="edge13_Node000013_Node000003" title=" " alt="" coords="550,112,475,121,474,116,549,107"/>
+<area shape="poly" id="edge14_Node000013_Node000009" title=" " alt="" coords="551,117,523,127,490,144,462,163,459,159,487,140,521,122,549,112"/>
+<area shape="poly" id="edge15_Node000013_Node000010" title=" " alt="" coords="549,83,521,74,487,55,458,36,461,31,489,51,523,69,551,78"/>
+<area shape="poly" id="edge16_Node000013_Node000011" title=" " alt="" coords="549,89,474,78,475,73,550,83"/>
+<area shape="rect" id="Node000015" href="$classGA.html#a3ead8e5f1b132c8e56b4d311d3d1e429" title="Troca aminoácidos equivalentes na população inteira, dependendo do quadrante." alt="" coords="522,136,756,164"/>
+<area shape="poly" id="edge18_Node000014_Node000015" title=" " alt="" coords="789,153,756,153,756,147,789,147"/>
+<area shape="poly" id="edge19_Node000015_Node000003" title=" " alt="" coords="517,136,475,130,475,125,517,131"/>
+<area shape="poly" id="edge20_Node000015_Node000009" title=" " alt="" coords="511,169,475,173,474,168,511,164"/>
+<area shape="poly" id="edge21_Node000015_Node000010" title=" " alt="" coords="530,131,521,125,503,107,494,88,486,69,472,48,460,36,463,32,476,44,491,66,499,86,507,104,524,121,533,127"/>
+<area shape="poly" id="edge22_Node000015_Node000011" title=" " alt="" coords="544,134,521,126,487,107,458,88,461,83,489,103,523,121,546,129"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="Repositorio::getPartition" name="Repositorio::getPartition">
+<area shape="rect" id="Node000001" title="Função de clustering padrão." alt="" coords="456,32,634,60"/>
+<area shape="rect" id="Node000002" href="$structRepositorio.html#a08ab0fa27513e147ab544159510b895e" title="Ler o repositório a partir de um arquivo." alt="" coords="206,32,408,60"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="441,49,409,49,409,43,441,43"/>
+<area shape="rect" id="Node000003" href="$namespaceGASS.html#a7de0487e57ce7191088bf31ecfa9a78a" title="Executa um teste de sanidade para a execução do GA." alt="" coords="5,5,158,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="191,35,158,31,158,26,191,29"/>
+<area shape="rect" id="Node000004" href="$namespaceGASS.html#a9dde04a068714a3fb4d638432e365a87" title="Inicializa o setup lendo a configuração, templates, repositórios, etc." alt="" coords="31,57,132,85"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="191,62,132,68,132,63,191,56"/>
+</map>

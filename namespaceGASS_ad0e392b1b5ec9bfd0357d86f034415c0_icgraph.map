@@ -1,0 +1,7 @@
+<map id="GASS::getSitesByPdbId" name="GASS::getSitesByPdbId">
+<area shape="rect" id="Node000001" title="Obtém sites pelo ID do PDB." alt="" coords="423,5,593,33"/>
+<area shape="rect" id="Node000002" href="$namespaceGASS.html#a35d0582343c7649dc506a016d46e2c2b" title="Lê a matriz de substituição." alt="" coords="154,5,375,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="408,22,375,22,375,17,408,17"/>
+<area shape="rect" id="Node000003" href="$namespaceGASS.html#a9dde04a068714a3fb4d638432e365a87" title="Inicializa o setup lendo a configuração, templates, repositórios, etc." alt="" coords="5,5,106,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="139,22,106,22,106,17,139,17"/>
+</map>

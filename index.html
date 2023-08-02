@@ -1,0 +1,136 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt-BR">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.7"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>GASS: Algoritmo Genético para Busca de Sítios (GASS)</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">GASS<span id="projectnumber">&#160;2.0</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Gerado por Doxygen 1.9.7 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Busca');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Carregando...</div>
+<div class="SRStatus" id="Searching">Procurando...</div>
+<div class="SRStatus" id="NoMatches">Nenhuma entrada encontrado</div>
+</div>
+</div>
+</div>
+</div>
+
+<div><div class="header">
+  <div class="headertitle"><div class="title">Algoritmo Genético para Busca de Sítios (<a class="el" href="namespaceGASS.html" title="Namespace que contém as funções e estruturas do sistema GASS.">GASS</a>) </div></div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><p><a class="anchor" id="md__2home_2gengar_2codes_2newGASS-base_2README"></a> O projeto <a class="el" href="namespaceGASS.html" title="Namespace que contém as funções e estruturas do sistema GASS.">GASS</a> (Genetic Algorithm Site Search) fornece uma implementação de algoritmo genético especializado na manipulação de estruturas de aminoácidos. Utiliza técnicas modernas de otimização e paralelismo para fornecer soluções precisas e eficientes para o problema.</p>
+<h1><a class="anchor" id="autotoc_md1"></a>
+Características</h1>
+<ul>
+<li><b>Paralelismo</b>: Execução paralela em diferentes quadrantes para otimizar o tempo de processamento.</li>
+<li><b>Manipulação de Aminoácidos</b>: Manipula estruturas de aminoácidos, permitindo mutações, cálculo de fitness, validações, etc.</li>
+<li><b>Flexibilidade</b>: Parametrização para controle sobre o tamanho da população, taxa de mutação, cruzamento e outras variáveis do algoritmo genético.</li>
+</ul>
+<h1><a class="anchor" id="autotoc_md2"></a>
+Dependências</h1>
+<ul>
+<li>C++11 ou superior</li>
+<li>Biblioteca STL para multithreading e containers</li>
+</ul>
+<h1><a class="anchor" id="autotoc_md3"></a>
+Classes e Estruturas</h1>
+<h2><a class="anchor" id="autotoc_md4"></a>
+Classe GA</h2>
+<p>Responsável por gerenciar o algoritmo genético, incluindo operações como mutação, cruzamento, seleção, validação e outros processos fundamentais do algoritmo.</p>
+<h2><a class="anchor" id="autotoc_md5"></a>
+Classe Individuo</h2>
+<p>Representa um indivíduo dentro da população do algoritmo genético, contendo um cromossomo e métodos associados para manipulação.</p>
+<h2><a class="anchor" id="autotoc_md6"></a>
+Estrutura site</h2>
+<p>Representa o sítio onde o algoritmo é aplicado, contendo informações sobre os aminoácidos e suas relações.</p>
+<h2><a class="anchor" id="autotoc_md7"></a>
+Classe Repositorio</h2>
+<p>Armazena os aminoácidos e informações associadas, fornecendo acesso eficiente para as operações do algoritmo genético.</p>
+<h2><a class="anchor" id="autotoc_md8"></a>
+Namespace GASS</h2>
+<p>Contém funções auxiliares e principais para a execução do algoritmo, incluindo <code>runOneToOne</code> e <code>run</code>, que coordenam a execução em paralelo e o fluxo geral do algoritmo.</p>
+<h1><a class="anchor" id="autotoc_md9"></a>
+Uso</h1>
+<p>O projeto aceita uma variedade de parâmetros para ajustar o comportamento do algoritmo genético e várias funções auxiliares, sendo a interface principal o namespace <a class="el" href="namespaceGASS.html" title="Namespace que contém as funções e estruturas do sistema GASS.">GASS</a>.</p>
+<p>Um exemplo de uso é o seguinte:</p>
+<div class="fragment"><div class="line"><span class="keywordtype">void</span> run(<a class="code hl_struct" href="structsite.html">site</a> temp, <a class="code hl_struct" href="structRepositorio.html">Repositorio</a> rep, <span class="keywordtype">string</span> outputFilePath){</div>
+<div class="line">    std::set&lt;Individuo&gt; results;</div>
+<div class="line">    ofstream ofs(outputFilePath);</div>
+<div class="line"> </div>
+<div class="line">    <a class="code hl_function" href="namespaceGASS.html#a1ab7cff6ca6be04f7d006013b17c59da">GASS::runOneToOne</a>(&amp;temp, &amp;rep, &amp;results, getDefaultParameters());</div>
+<div class="line">}</div>
+<div class="ttc" id="anamespaceGASS_html_a1ab7cff6ca6be04f7d006013b17c59da"><div class="ttname"><a href="namespaceGASS.html#a1ab7cff6ca6be04f7d006013b17c59da">GASS::runOneToOne</a></div><div class="ttdeci">void runOneToOne(site *temp, Repositorio *repositorio, std::set&lt; Individuo &gt; *results)</div><div class="ttdoc">Executa um algoritmo genético (GA) em paralelo em múltiplos quadrantes e depois consolida os resultad...</div><div class="ttdef"><b>Definição</b> <a href="newGASS_8cpp_source.html#l00403">newGASS.cpp:403</a></div></div>
+<div class="ttc" id="astructRepositorio_html"><div class="ttname"><a href="structRepositorio.html">Repositorio</a></div><div class="ttdoc">Estrutura que representa um repositório de átomos.</div><div class="ttdef"><b>Definição</b> <a href="Repositorio_8hpp_source.html#l00020">Repositorio.hpp:20</a></div></div>
+<div class="ttc" id="astructsite_html"><div class="ttname"><a href="structsite.html">site</a></div><div class="ttdoc">Estrutura que representa um sítio de ligação.</div><div class="ttdef"><b>Definição</b> <a href="site_8hpp_source.html#l00018">site.hpp:19</a></div></div>
+</div><!-- fragment --><p>Este trecho de código executa o algoritmo genético em um único quadrante, utilizando os parâmetros padrão e obtem os resultados no conjunto results. Esta função foi retirada do repositório <a href="https://github.com/MurilloMendonca/gasscli">gasscli</a>.</p>
+<h1><a class="anchor" id="autotoc_md10"></a>
+Contribuindo</h1>
+<p>Estamos abertos a contribuições! Sinta-se à vontade para abrir uma issue ou enviar um pull request.</p>
+<h1><a class="anchor" id="autotoc_md11"></a>
+Licença</h1>
+<p>Este projeto está licenciado sob a Licença MIT. Consulte o arquivo LICENSE para obter detalhes.</p>
+<h1><a class="anchor" id="autotoc_md12"></a>
+Contato e Suporte</h1>
+<p>Para perguntas, preocupações ou suporte, por favor, entre em contato através do email: <a href="#" onclick="location.href='mai'+'lto:'+'you'+'r-'+'ema'+'il'+'@ex'+'am'+'ple'+'.c'+'om'; return false;">your-<span class="obfuscator">.nosp@m.</span>emai<span class="obfuscator">.nosp@m.</span>l@exa<span class="obfuscator">.nosp@m.</span>mple<span class="obfuscator">.nosp@m.</span>.com</a> </p>
+</div></div><!-- PageDoc -->
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Gerado por&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.7
+</small></address>
+</body>
+</html>

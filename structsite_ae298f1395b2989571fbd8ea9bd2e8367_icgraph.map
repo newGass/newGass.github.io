@@ -1,0 +1,11 @@
+<map id="site::calculateDistances" name="site::calculateDistances">
+<area shape="rect" id="Node000001" title=" " alt="" coords="430,59,606,86"/>
+<area shape="rect" id="Node000002" href="$namespaceGASS.html#a0a4e9c70e4c5ad60e06cb49a1729dfe9" title="Lê o arquivo de template." alt="" coords="206,32,382,60"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="415,63,382,59,383,54,416,58"/>
+<area shape="rect" id="Node000005" href="$structsite.html#af13ace8fa2ce081e1606c0e48acfcdc9" title=" " alt="" coords="255,84,333,112"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="416,87,333,96,332,91,415,81"/>
+<area shape="rect" id="Node000003" href="$namespaceGASS.html#a7de0487e57ce7191088bf31ecfa9a78a" title="Executa um teste de sanidade para a execução do GA." alt="" coords="5,5,158,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="191,36,158,31,158,26,191,30"/>
+<area shape="rect" id="Node000004" href="$namespaceGASS.html#a9dde04a068714a3fb4d638432e365a87" title="Inicializa o setup lendo a configuração, templates, repositórios, etc." alt="" coords="31,57,132,85"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="192,61,133,68,132,63,191,55"/>
+</map>

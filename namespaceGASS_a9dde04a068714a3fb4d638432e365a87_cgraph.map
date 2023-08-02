@@ -1,0 +1,23 @@
+<map id="GASS::setup" name="GASS::setup">
+<area shape="rect" id="Node000001" title="Inicializa o setup lendo a configuração, templates, repositórios, etc." alt="" coords="5,136,106,164"/>
+<area shape="rect" id="Node000002" href="$namespaceGASS.html#a8ba7f1b507e6a570ba249ab05a5b5dd6" title="Lê o arquivo de configuração." alt="" coords="186,5,343,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="64,134,99,89,124,64,152,44,171,34,173,39,155,48,127,68,103,93,68,137"/>
+<area shape="rect" id="Node000003" href="$structRepositorio.html#a08ab0fa27513e147ab544159510b895e" title="Ler o repositório a partir de um arquivo." alt="" coords="163,57,366,85"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="78,133,113,114,153,95,177,87,179,92,155,100,115,119,81,138"/>
+<area shape="rect" id="Node000006" href="$namespaceGASS.html#a4ed226d11921ae44178c7b558b20641c" title="Lê o arquivo de execução contendo nomes de proteínas." alt="" coords="194,109,335,137"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="106,141,179,131,179,137,107,146"/>
+<area shape="rect" id="Node000007" href="$namespaceGASS.html#a772c9847d2ec3ca70785c76f45f8e2c7" title="Lê o arquivo de configuração de template." alt="" coords="158,161,371,189"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="107,153,143,158,143,163,106,159"/>
+<area shape="rect" id="Node000008" href="$namespaceGASS.html#a35d0582343c7649dc506a016d46e2c2b" title="Lê a matriz de substituição." alt="" coords="154,213,375,241"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="82,162,116,180,155,198,180,206,178,211,153,203,113,185,79,167"/>
+<area shape="rect" id="Node000010" href="$namespaceGASS.html#a0a4e9c70e4c5ad60e06cb49a1729dfe9" title="Lê o arquivo de template." alt="" coords="176,265,353,293"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="68,163,103,207,127,230,155,250,169,257,166,262,152,255,124,234,99,210,64,166"/>
+<area shape="rect" id="Node000004" href="$structRepositorio.html#a26ae474a60bef01a0ee7737e7bc7df3b" title="Função de clustering padrão." alt="" coords="431,32,609,60"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="366,58,416,53,416,59,366,64"/>
+<area shape="rect" id="Node000005" href="$structRepositorio.html#a5d117cfccc52bf3bf2a3f08cbc1ec709" title="Ler o repositório a partir de um arquivo." alt="" coords="423,84,617,112"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="366,79,408,84,408,89,366,84"/>
+<area shape="rect" id="Node000009" href="$namespaceGASS.html#ad0e392b1b5ec9bfd0357d86f034415c0" title="Obtém sites pelo ID do PDB." alt="" coords="435,213,605,241"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="376,225,420,225,420,230,376,230"/>
+<area shape="rect" id="Node000011" href="$structsite.html#ae298f1395b2989571fbd8ea9bd2e8367" title=" " alt="" coords="432,265,608,293"/>
+<area shape="poly" id="edge10_Node000010_Node000011" title=" " alt="" coords="353,277,417,277,417,282,353,282"/>
+</map>

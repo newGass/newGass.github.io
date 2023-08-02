@@ -1,0 +1,7 @@
+<map id="Repositorio::readRepository" name="Repositorio::readRepository">
+<area shape="rect" id="Node000001" title="Ler o repositório a partir de um arquivo." alt="" coords="5,32,208,60"/>
+<area shape="rect" id="Node000002" href="$structRepositorio.html#a26ae474a60bef01a0ee7737e7bc7df3b" title="Função de clustering padrão." alt="" coords="264,5,442,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="208,32,248,28,249,33,208,38"/>
+<area shape="rect" id="Node000003" href="$structRepositorio.html#a5d117cfccc52bf3bf2a3f08cbc1ec709" title="Ler o repositório a partir de um arquivo." alt="" coords="256,57,450,85"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="208,54,241,57,241,62,208,59"/>
+</map>

@@ -1,0 +1,45 @@
+<map id="GA::run" name="GA::run">
+<area shape="rect" id="Node000001" title="Executa o GA por g gerações." alt="" coords="5,253,75,280"/>
+<area shape="rect" id="Node000002" href="$classGA.html#a29fdc919b4f0e8c14ad11c6e6888f3ab" title="Calcula a aptidao de cada individuo da populacao." alt="" coords="423,18,600,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="39,252,44,212,57,159,81,103,99,78,121,58,157,36,196,21,237,11,279,5,360,4,432,12,431,18,360,10,279,10,238,16,198,26,159,41,124,62,103,82,86,106,62,160,49,213,45,253"/>
+<area shape="rect" id="Node000004" href="$classGA.html#aeb8f75645abd24727f7276d9cae1f0dd" title="Aplica o operador de cruzamento em toda a populacao gerando uma nova populacao." alt="" coords="164,177,315,204"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="63,250,122,220,161,206,163,211,124,225,66,255"/>
+<area shape="rect" id="Node000008" href="$classGA.html#a8bf0534273b9417a9358f0a4769b84c5" title="Gera um indivíduo válido, selecionando aminoácidos a partir de um quadrante específico no repositório..." alt="" coords="423,278,600,306"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="75,262,199,259,356,264,424,272,423,278,356,269,199,264,75,267"/>
+<area shape="rect" id="Node000009" href="$classGA.html#a9f7023a21297f08ddfb19138e5730622" title="Popula o vetor populacao com tamanhoDaPopulacao novos individuos distribuidos aleatoriamente dentro d..." alt="" coords="167,278,312,306"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="75,268,153,278,152,284,75,274"/>
+<area shape="rect" id="Node000010" href="$classGA.html#a13ac136620a37ebff23901b94d4e84ab" title="Obtem o melhor individio dentre todos da populacao." alt="" coords="151,330,328,358"/>
+<area shape="poly" id="edge10_Node000001_Node000010" title=" " alt="" coords="62,279,90,298,124,315,147,323,145,328,122,320,88,302,59,283"/>
+<area shape="rect" id="Node000012" href="$classGA.html#a704149ed80563ad259fa6e2aa43765d5" title="Obtem os n melhores individuos dentre o vetor vec." alt="" coords="185,382,294,410"/>
+<area shape="poly" id="edge12_Node000001_Node000012" title=" " alt="" coords="51,280,79,324,100,347,124,367,147,378,171,386,170,391,145,383,121,371,96,351,75,327,46,283"/>
+<area shape="rect" id="Node000013" href="$classGA.html#a574aca4689509167b4c9f9e9ea11d91c" title="Aplica o operador de mutação em cada individuo da populacao." alt="" coords="165,71,314,99"/>
+<area shape="poly" id="edge13_Node000001_Node000013" title=" " alt="" coords="42,252,51,222,66,183,89,144,121,110,149,95,152,99,124,114,94,147,71,186,56,224,47,253"/>
+<area shape="rect" id="Node000016" href="$classGA.html#ad31855c8702376744d9573b8af0c7134" title="Verifica se é possível gerar um indivíduo válido no quadrante especificado, com base na disponibilida..." alt="" coords="188,434,291,462"/>
+<area shape="poly" id="edge17_Node000001_Node000016" title=" " alt="" coords="47,280,56,310,71,347,94,386,124,419,148,432,175,441,173,446,146,437,121,423,89,390,66,350,51,311,42,281"/>
+<area shape="rect" id="Node000017" href="$classGA.html#a9bc22871e7378ee82008a6c11f9eca8e" title="Salva a população em um arquivo ou contêiner." alt="" coords="164,486,315,514"/>
+<area shape="poly" id="edge18_Node000001_Node000017" title=" " alt="" coords="45,280,51,319,64,371,88,425,104,450,124,471,152,487,149,492,121,475,100,453,83,428,59,372,46,320,40,281"/>
+<area shape="rect" id="Node000018" href="$classGA.html#a3ead8e5f1b132c8e56b4d311d3d1e429" title="Troca aminoácidos equivalentes na população inteira, dependendo do quadrante." alt="" coords="123,123,356,151"/>
+<area shape="poly" id="edge19_Node000001_Node000018" title=" " alt="" coords="46,251,75,207,96,183,121,163,136,155,139,159,124,167,100,187,79,210,51,254"/>
+<area shape="rect" id="Node000003" href="$classGA.html#a5efc9540045dcd9b63d226dd2cfa22c1" title="Calcula o valor de aptidão (fitness) de um indivíduo com base na distância entre seus átomos e outros..." alt="" coords="709,18,819,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="600,29,694,29,694,35,600,35"/>
+<area shape="rect" id="Node000005" href="$classGA.html#a9ee9f5698e808cdc21b8eb1979f6d05a" title="Realiza o cruzamento entre dois indivíduos usando o método de single&#45;point crossover." alt="" coords="470,226,553,254"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="315,202,456,227,455,232,314,207"/>
+<area shape="rect" id="Node000006" href="$classGA.html#ae3806f7d524f033a4e7a4028f77ab473" title="Realiza uma seleção de torneio entre um subconjunto de indivíduos da população, retornando o indivídu..." alt="" coords="464,174,558,202"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="315,187,449,186,449,191,315,193"/>
+<area shape="rect" id="Node000007" href="$classIndividuo.html#a03a9cb64bdee0b14c722ab187f3e8c74" title="Retorna a aptidao deste individuo." alt="" coords="686,174,842,202"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="559,185,671,185,671,191,559,191"/>
+<area shape="poly" id="edge9_Node000009_Node000008" title=" " alt="" coords="312,289,408,289,408,295,312,295"/>
+<area shape="rect" id="Node000011" href="$classGA.html#a6355ba709420cc330c585e7f01d80c13" title="Obtem o melhor individuo dentre os presentes no vetor recebido." alt="" coords="464,330,558,358"/>
+<area shape="poly" id="edge11_Node000010_Node000011" title=" " alt="" coords="328,341,449,341,449,347,328,347"/>
+<area shape="rect" id="Node000014" href="$classGA.html#a8854b257d07d1eb37b7b620ba3ebb95f" title="Realiza uma mutação em um indivíduo da população, substituindo um aminoácido em uma posição seleciona..." alt="" coords="470,70,552,98"/>
+<area shape="poly" id="edge14_Node000013_Node000014" title=" " alt="" coords="315,82,455,82,455,87,315,88"/>
+<area shape="poly" id="edge15_Node000014_Node000003" title=" " alt="" coords="552,73,694,44,695,49,553,78"/>
+<area shape="rect" id="Node000015" href="$classIndividuo.html#a1a054fa7eb914f8d93136514f3234340" title="Define a aptidao deste individuo." alt="" coords="686,70,842,98"/>
+<area shape="poly" id="edge16_Node000014_Node000015" title=" " alt="" coords="553,81,672,81,672,87,553,87"/>
+<area shape="rect" id="Node000019" href="$classGA.html#adda4cc49dfb003949047c169c6ae01f0" title="Realiza substituições conservativas nas cadeias de aminoácidos do indivíduo fornecido,..." alt="" coords="404,122,618,150"/>
+<area shape="poly" id="edge20_Node000018_Node000019" title=" " alt="" coords="356,134,389,134,389,139,356,139"/>
+<area shape="poly" id="edge21_Node000019_Node000003" title=" " alt="" coords="590,119,617,107,631,95,640,83,649,69,665,56,694,43,696,48,668,61,653,73,645,86,635,99,620,112,592,124"/>
+<area shape="poly" id="edge23_Node000019_Node000015" title=" " alt="" coords="582,119,678,99,679,104,583,124"/>
+<area shape="rect" id="Node000020" href="$classIndividuo.html#a5ce38e26ca9ee8f49c7d6b18a78be2c4" title="Define o genotipo deste individuo." alt="" coords="666,122,862,150"/>
+<area shape="poly" id="edge22_Node000019_Node000020" title=" " alt="" coords="619,133,651,133,651,139,619,139"/>
+</map>

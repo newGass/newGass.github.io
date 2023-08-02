@@ -1,0 +1,5 @@
+<map id="GA::desvioPadraoDaPopulacao" name="GA::desvioPadraoDaPopulacao">
+<area shape="rect" id="Node000001" title="Calcula o desvio padrão da aptidão da população." alt="" coords="5,5,226,33"/>
+<area shape="rect" id="Node000002" href="$classGA.html#af2dd95617a600ce5443ac7d713f4abf1" title="Calcula a aptidao media da populaca." alt="" coords="274,5,405,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="226,17,259,17,259,22,226,22"/>
+</map>
